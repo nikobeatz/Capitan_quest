@@ -102,3 +102,57 @@ $("body").on('click', '[href*="#"]', function(e){
 });
 
 //end scroll
+
+
+// start scroll sets chests
+
+// есть описание набора 
+// есть номер сундука 
+// есть кнопка вперед
+// есть кнопка назад
+// есть картинка открытый сундук
+// есть картинка закрытый сундук
+
+// при нажатии на кнопку вперед
+//  находим номер сундука
+//   показываем соответствующий номер описания
+//     при этом показываем картинку открытого сундука 
+
+
+// end scroll sets chests
+
+
+// mobile scroll chests
+
+$(document).ready(function(){
+  
+  $('.sets-mobile-wrapper__items').slick({
+    centerMode: false,
+    centerPadding: '0px',
+    slidesToShow: 1,
+    arrows: true,
+    focusOnSelect: false,
+    infinite: true,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+// end mobile scroll chests

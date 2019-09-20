@@ -200,18 +200,6 @@ button {
     background: url(/accets/img/menu_btn_dark_inst.png);
 }
 
-.menu-wrapper-content__contacts-icons_tg {
-    background: url(/accets/img/menu_btn_lite_tg.png);
-    background-size: cover;
-    display: block;
-    width: 40px;
-    height: 40px;
-}
-
-.menu-wrapper-content__contacts-icons_tg:hover {
-    background: url(/accets/img/menu_btn_dark_tg.png);
-}
-
 .menu-wrapper-content__contacts-icons_vk {
     background: url(/accets/img/menu_btn_lite_vk.png);
     background-size: cover;
@@ -252,8 +240,10 @@ button {
 .banner-wrapper-content {
     max-width: 1440px;
     height: 590px;
+    margin: 0 auto;
     background: url(/accets/img/banner_bg.png) no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .banner-wrapper-content__heading {
@@ -316,6 +306,7 @@ button {
 .banner-wrapper-contacts {
     max-width: 1440px;
     display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     padding: 28px 0px;
@@ -604,26 +595,23 @@ button {
 
 .best-wrapper-content__slider {
     position: relative;
-    width: 1300px;
     height: 549px;
-    overflow: hidden;
     padding: 42px 0px 0px;
 }
 
 .best-wrapper-content__slider-img {
     position: relative;
-    width: 100000px;
     height: 549px;
 }
 
 .best-wrapper-content__slider-img img {
-    float: left;
+    width: 100%;
 }
 
 .prev_btn {
     position: absolute;
     top: 10px;
-    left: 575px;
+    right: 50%;
     display: block;
     width: 75px;
     height: 60px;
@@ -639,7 +627,7 @@ button {
 .next_btn {
     position: absolute;
     top: 10px;
-    left: 650px;
+    left: 50%;
     display: block;
     width: 75px;
     height: 60px;
@@ -689,6 +677,7 @@ button {
     height: 909px;
     background: url(/accets/img/sea_bg.png) no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 87px 137px 0px;
     text-align: center;
 }
@@ -820,11 +809,10 @@ h4 {
 .goals-wrapper {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 70px;
 }
 
 .goals-wrapper-content {
-    padding: 75px 0px 0px;
+    padding: 75px 70px 0px;
 }
 
 .goals-wrapper-content__kids {
@@ -875,7 +863,7 @@ h4 {
 }
 
 .goals-wrapper-content__parents-image {
-    width: 52px;
+    width: 52%;
 }
 
 .goals-wrapper-content__parents-text {
@@ -946,6 +934,7 @@ h4 {
     height: 437px;
     background: url(/accets/img/map_bg.png) no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: flex-end;
 }
@@ -1033,6 +1022,7 @@ form>button {
     width: 100%;
     background: url(/accets/img/sea_animals_bg.png) no-repeat;
     background-size: cover;
+    padding-bottom: 35px;
 }
 
 .contacts-wrapper {
