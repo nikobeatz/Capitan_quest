@@ -444,6 +444,8 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 50px 0px;
+    transform: scale(1.2);
+    overflow: hidden;
 }
 
 .birthday-wrapper_wave-items-item {
@@ -493,27 +495,23 @@ button {
     color: #3A6A96;
 }
 
-.slick-slider {
-    transform: scale(1.2);
-    overflow: hidden;
-}
 
-.slick-center {
+.birthday-wrapper_wave-items .slick-center {
     width: 307px !important;
     height: 423px !important;
 }
 
-.slick-track.slick-active:last-of-type {
+.birthday-wrapper_wave-items .slick-track.slick-active:last-of-type {
     opacity: 0.3 !important;
     display: none;
 }
 
-.slick-list.draggable {
+.birthday-wrapper_wave-items .slick-list.draggable {
     padding: 0px !important;
 
 }
 
-.slick-track {
+.birthday-wrapper_wave-items .slick-track {
     height: 575px !important;
     display: flex !important;
     align-items: center !important;
@@ -521,7 +519,7 @@ button {
 }
 
 
-.slick-prev.slick-arrow {
+.birthday-wrapper_wave-items .slick-prev.slick-arrow {
     position: absolute;
     z-index: 1;
     top: 130px;
@@ -530,7 +528,7 @@ button {
     opacity: 0;
 }
 
-.slick-next.slick-arrow {
+.birthday-wrapper_wave-items .slick-next.slick-arrow {
     position: absolute;
     z-index: 1;
     top: 130px;
@@ -608,32 +606,32 @@ button {
     width: 100%;
 }
 
-.prev_btn {
+.best-wrapper-content__slider-img .slick-prev {
     position: absolute;
-    top: 10px;
+    top: -30px;
     right: 50%;
     display: block;
     width: 75px;
     height: 60px;
     cursor: pointer;
     z-index: 1;
-    font-size: 34px;
+    font-size: 14px;
     font-weight: 100;
     color: #3a6a96;
     box-shadow: -3px 0px 6px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
 }
 
-.next_btn {
+.best-wrapper-content__slider-img .slick-next {
     position: absolute;
-    top: 10px;
+    top: -30px;
     left: 50%;
     display: block;
     width: 75px;
     height: 60px;
     cursor: pointer;
     z-index: 1;
-    font-size: 34px;
+    font-size: 14px;
     font-weight: 100;
     color: #3a6a96;
     box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.25);
