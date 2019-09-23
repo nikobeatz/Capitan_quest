@@ -14,7 +14,24 @@ open.addEventListener("click", function () {
 
 });
 
+//mobile
+
+var mobPopup = document.querySelector('.menu');
+var mobOpen = document.querySelector('.menu_button_mobile');
+popup.style.display = 'none'
+
+
+mobOpen.addEventListener("click", function () {
+
+  if (mobPopup.style.display == 'none') mobPopup.style.display = 'block';
+  else mobPopup.style.display = 'none'
+
+});
+
 //end open and close menu
+
+
+
 
 //start card carousel 
 
@@ -29,41 +46,45 @@ $(document).ready(function(){
     focusOnSelect: false,
     infinite: true,
     responsive: [{
-        breakpoint: 768,
+        breakpoint: 820,
         settings: {
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 3
+          slidesToShow: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 620,
         settings: {
           arrows: false,
-          centerMode: true,
+          centerMode: false,
           centerPadding: '40px',
           slidesToShow: 1
         }
       }
     ]
   });
-
-  $('.slick-track .slick-active:first')
-  .css('opacity', '0.5');
   
-  $('.slick-track .slick-active:last')
-  .css('opacity', '0.5');
+      // // whatever you want
+      // $('.slick-track .slick-active:first')
+      // .css('opacity', '0.5');
+      
+      // $('.slick-track .slick-active:last')
+      // .css('opacity', '0.5');
+   
 });
 
-$(".slick-prev").click( function() {
-  // whatever you want
-  $('.slick-track .slick-active:first')
-  .css('opacity', '0.5');
-  
-  $('.slick-track .slick-active:last')
-  .css('opacity', '0.5');
-});
+// $(document).ready(function (){
+//   $(".slick-prev, .slick-next").on('click', function() {
+//     // whatever you want
+//     $('.slick-track .slick-active:first')
+//     .css('opacity', '0.5');
+    
+//     $('.slick-track .slick-active:last')
+//     .css('opacity', '0.5');
+//   });
+// });
 
 
 //end card carousel
@@ -109,17 +130,31 @@ $("body").on('click', '[href*="#"]', function(e){
 
 // start scroll sets chests
 
-// есть описание набора 
-// есть номер сундука 
-// есть кнопка вперед
-// есть кнопка назад
-// есть картинка открытый сундук
-// есть картинка закрытый сундук
 
-// при нажатии на кнопку вперед
-//  находим номер сундука
-//   показываем соответствующий номер описания
-//     при этом показываем картинку открытого сундука 
+
+
+function move(to, from) {
+    // console.log(index);
+    // console.log(direction);
+
+    let descriptionItems = document.getElementsByClassName('sets-wrapper-content__item-wrapper');
+    let openedChests = document.getElementsByClassName('sets-wrapper-content__chests-item-img-opened')
+    let closedChests = document.getElementsByClassName('sets-wrapper-content__chests-item-img-closed')
+
+    for (let i = 0; i < 7; i++) {
+        i === to ? descriptionItems[i].style.display = 'block' : descriptionItems[i].style.display = 'none';
+    }
+    
+    openedChests[from].style.display = 'none'
+    closedChests[from].style.display = 'block'
+    openedChests[to].style.display = 'block'
+    closedChests[to].style.display = 'none'
+    
+    
+    
+}
+
+
 
 
 // end scroll sets chests
@@ -147,7 +182,7 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 620,
         settings: {
           arrows: false,
           centerMode: true,

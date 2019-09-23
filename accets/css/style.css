@@ -672,7 +672,7 @@ button {
 }
 
 .sets-wrapper-content {
-    height: 909px;
+    height: 822px;
     background: url(/accets/img/sea_bg.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -689,6 +689,19 @@ h4 {
     color: #FFFFFF;
     margin-bottom: 15px;
 }
+
+.sets-wrapper-content__item-wrapper-four {
+    display: block;
+}
+
+.sets-wrapper-content__item-wrapper-one,
+.sets-wrapper-content__item-wrapper-two, 
+.sets-wrapper-content__item-wrapper-three,
+.sets-wrapper-content__item-wrapper-five,
+.sets-wrapper-content__item-wrapper-six,
+.sets-wrapper-content__item-wrapper-seven {
+    display: none;
+}  
 
 .sets-wrapper-content__setname {
     display: flex;
@@ -762,35 +775,38 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 65%;
-    background-position-x: 40%;
-    background-position-y: 100%;
+    height: 61%;
+    background-position: center bottom;
 }
 
 .sets-wrapper-content__chests-item_center {
     height: 90%;
-    margin: 0px 0px;
 }
 
-.sets-wrapper-content__chests-item_center-right {
-    height: 74%;
-    margin-right: 0px;
+.sets-wrapper-content__chests-item_center .sets-wrapper-content__chests-item-img-closed {
+    display: none;
 }
 
+.sets-wrapper-content__chests-item_center .sets-wrapper-content__chests-item-img-opened {
+    display: block;
+}
+
+.sets-wrapper-content__chests-item_center-right,
 .sets-wrapper-content__chests-item_center-left {
     height: 74%;
-    margin-left: 0px;
 }
 
-.sets-wrapper-content__chests-item_middle-right, .sets-wrapper-content__chests-item_middle-left {
+.sets-wrapper-content__chests-item_middle-right,
+.sets-wrapper-content__chests-item_middle-left {
     height: 55%;
 }
 
-.sets-wrapper-content__chests-item_right, .sets-wrapper-content__chests-item_left {
+.sets-wrapper-content__chests-item_right,
+.sets-wrapper-content__chests-item_left {
     height: 22%;
 }
 
-.sets-wrapper-content__chests-item-img-open {
+.sets-wrapper-content__chests-item-img-opened {
     display: none;
 }
 
@@ -1148,7 +1164,7 @@ form>button {
 .map-wrapper {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 70px 70px 50px;
+    padding: 70px 40px 50px;
 }
 
 .map-wrapper-content {
@@ -1160,4 +1176,8 @@ form>button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.map-wrapper-content__map-img img {
+    width: 100%;
 }

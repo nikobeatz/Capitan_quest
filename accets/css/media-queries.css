@@ -9,7 +9,36 @@
         display: none;
     }
 
+    .menu-wrapper-content__links-tab_mobile {
+        display: none;
+    }
+
     .banner-wrapper-content__heading_mobile {
+        display: none;
+    }
+
+    .birthday-wrapper-content__link-sets_mobile {
+        display: none;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .best_mobile {
+        display: none;
+    }
+
+    .contacts-wrapper-content__contacts-icons_mobile {
+        display: none;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+
+    .mobile-banner-heading {
+        display: none;
+    }
+
+    .mobile-footer-bg {
         display: none;
     }
 }
@@ -21,12 +50,40 @@
         justify-content: center;
     }
 
+    .birthday-wrapper-content__link-sets_mobile {
+        display: none;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .menu-wrapper-content__links-tab_mobile {
+        display: none;
+    }
+
     .sets-mobile {
+        display: none;
+    }
+    .mobile-banner-heading {
+        display: none;
+    }
+
+    .mobile-footer-bg {
         display: none;
     }
 
     .banner-wrapper-content__heading_mobile {
         display: none;
+    }
+
+    .best_mobile {
+        display: none;
+    }
+
+    .contacts-wrapper-content__contacts-icons_mobile {
+        display: none;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
     }
 
 
@@ -86,6 +143,27 @@
         opacity: 0;
     } 
 
+
+    /* MENU */
+
+
+    .menu {
+        width: 100%;
+        background-color: #fff;
+        position: sticky;
+        top: 71px;
+        z-index: 99;
+    }
+
+    .menu-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .menu-wrapper-content {
+        padding: 60px 200px 40px;
+    }
+
     /* GOALS */
     .goals {
         height: 2410px;
@@ -144,6 +222,26 @@
 
     .header-wrapper-content__phone {
         width: 178px;
+    }
+
+    /* MENU */
+
+
+    .menu {
+        width: 100%;
+        background-color: #fff;
+        position: sticky;
+        top: 71px;
+        z-index: 99;
+    }
+
+    .menu-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .menu-wrapper-content {
+        padding: 60px 150px 40px;
     }
 
 
@@ -295,6 +393,32 @@
 
     .banner-wrapper-content {
         height: 485px;
+    }
+
+    /* MENU */
+
+
+    .menu {
+        width: 100%;
+        background-color: #fff;
+        position: sticky;
+        top: 71px;
+        z-index: 99;
+    }
+
+    .menu-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .menu-wrapper-content {
+        padding: 60px 100px 40px;
+    }
+
+    .menu-wrapper-content hr {
+        margin: 50px 0px 60px 0px;
+        width: 100%;
+        border: 1px solid #E4E4E4;
     }
 
     /* BIRTHDAY */
@@ -465,6 +589,108 @@
     
     .menu-wrapper-content__contacts-icons_fb:hover {
         background: url(/accets/img/menu_btn_dark_fb.png);
+    }
+
+    /* MENU */
+
+
+    .menu {
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0px;
+        z-index: 99;
+    }
+
+    .menu-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .menu-wrapper-content {
+        padding: 60px 100px 40px;
+    }
+
+    .menu-wrapper-content__links {
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .menu-wrapper-content__links-tab:nth-child(2) {
+        display: none;
+    }
+
+    .menu-wrapper-content__links-tab li:hover {
+        background: none;
+        padding-right: 0px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .menu-wrapper-content__links-tab {
+        width: 100%;
+    }
+
+    .menu-wrapper-content__links-tab_mobile {
+        width: 100%;
+        display: block;
+        
+    }
+
+    .menu-wrapper-content__links-tab_mobile li {
+        list-style-type: none;
+        margin: 0px 0px 25px 0px;
+        padding: 7px 0px 0px 0px;
+    }
+
+    .menu-wrapper-content__links-tab li {
+        list-style-type: none;
+        margin: 0px 0px 25px 0px;
+        padding: 7px 0px 0px 0px;
+    }
+    
+    .menu-wrapper-content__links-tab_mobile li:hover {
+        background: none;
+        padding-right: 0px;
+        margin: 0px 0px 25px 0px;
+    }
+    
+    .menu-wrapper-content__links-tab_mobile a {
+        font-family: 'Rockwell';
+        font-size: 30px;
+        letter-spacing: 0.06em;
+        color: #535353;
+    }
+    
+    .menu-wrapper-content__links-tab_mobile a:hover {
+        color: #3A6A96;
+        font-weight: bold;
+    }
+
+    .menu-wrapper-content__links-tab_mobile li:hover {
+        background: none;
+        padding-right: 0px;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .menu-wrapper-content__contacts {
+        display: block;
+        justify-content: space-between;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    
+    .menu-wrapper-content__contacts-text {
+        width: 100%;
+    }
+
+    .menu-wrapper-content__contacts-icons {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
     }
 
 
@@ -722,7 +948,7 @@
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 820px) {
     .header {
         width: 100%;
         background-color: transparent;
@@ -742,6 +968,7 @@
 
     .menu_button_mobile {
         background-color: transparent;
+        z-index: 100;
     }
 
     .menu_button_mobile img {
@@ -764,17 +991,28 @@
 
     .banner-wrapper-content {
         max-width: 1440px;
-        height: 590px;
+        height: 1065px;
         margin: 0 auto;
-        background: url(/accets/img/banner_bg.png) no-repeat;
-        background-size: cover;
+        background: url(/accets/img/mobile_banner_bg.png) no-repeat;
+        background-size: 100% 100%;
         background-position: center;
+    }
+
+    .mobile-banner-heading {
+        display: block;
+        font-family: 'Rockwell';
+        font-size: 70px;
+        line-height: 110%;
+        text-align: center;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin: 100px 0px;
     }
 
     .banner-wrapper-content__heading {
         display: block;
         width: 80%;
-        height: 50%;
+        height: 40%;
         justify-content: center;
         align-items: flex-start;
         background: #FFFFFF;
@@ -790,7 +1028,7 @@
         text-align: center;
         font-weight: bold;
         color: #2F6898;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     .banner-wrapper-content__heading p {
@@ -802,9 +1040,13 @@
         display: block;
     }
 
+    .banner-wrapper-content__button {
+        height: 15%;
+    }
+
     .banner-wrapper-content__button-wrapper button {
-        width: 340px;
-        height: 50px;
+        width: 500px;
+        height: 80px;
         background: #FCC617;
         box-shadow: 0px 5px 10px rgba(58, 106, 150, 0.1);
         border-radius: 2px;
@@ -829,7 +1071,7 @@
 
     .banner-wrapper-contacts {
         max-width: 100%;
-        display: flex;
+        display: none;
         margin: 0 auto;
         align-items: center;
         justify-content: space-between;
@@ -839,22 +1081,107 @@
 
     /* BIRTHDAY */
 
+    .birthday {
+        width: 100%;
+        height: 708px;
+        background-color: #fff;
+        background: url(/accets/img/mobile_birthday_bg.png) no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .birthday-wrapper-content {
+        width: 100%;
+        background: none;
+    }
+
+    .birthday-wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .birthday-wrapper-content h2 {
+        font-family: 'Rockwell';
+        font-size: 34px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .birthday-wrapper-content p {
+        font-family: 'Gotham Pro';
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .birthday-wrapper-content__link-sets {
+        display: none;
+    }
+
+    .birthday-wrapper-content__link-sets_mobile {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .birthday-wrapper-content__link-sets-btn {
+        width: 300px;
+        height: 50px;
+        background: #ffffff;
+        box-shadow: 0px 5px 10px rgba(58, 106, 150, 0.1);
+        border-radius: 2px;
+        border: 2px solid #f10505;
+        font-family: 'Gotham Pro';
+        font-size: 18px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        font-weight: bold;
+        color: #527fae;
+    }
+
     .birthday-wrapper_wave {
-        height: 310px;
+        height: 750px;
+        position: absolute;
+        top: 400px;
+    }
+
+    .birthday-wrapper_wave .slick-list {
+        display: flex !important;
     }
 
     .birthday-wrapper_wave-items-item {
-        width: 276px !important;
-        height: 175px !important;
+        width: 520px !important;
+        height: 710px !important;
+        margin: 0px 74px;
     }
 
     .birthday-wrapper_wave-items .slick-center {
-        width: 307px !important;
-        height: 210px !important;
+        width: 520px !important;
+        height: 710px !important;
     }
 
     .birthday-wrapper_wave-items .slick-track {
-        height: 270px !important;
+        height: 750px !important;
+        justify-content: space-between;
+    }
+
+    .birthday-wrapper_wave-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+        transform: scale(1);
+        overflow: hidden;
     }
 
     .birthday-wrapper_wave-items .slick-prev.slick-arrow {
@@ -876,6 +1203,71 @@
         opacity: 0;
     }
 
+    .birthday-wrapper_wave-items-item-photo {
+        display: flex;
+        align-items: flex-end;
+        height: 40%;
+        border-radius: 11px;
+        background: none;
+        background-size: cover;
+    }
+
+    .birthday-wrapper_wave-items-item-photo-description {
+        height: auto;
+        width: 100%;
+        height: 93%;
+        padding: 20px 20px 0px;
+        text-align: center;
+        background: none;
+    }
+
+    .birthday-wrapper_wave-items-item-photo-description span {
+        color: #fff;
+        text-align: center;
+        display: none;
+    }
+
+    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+        font-family: 'Rockwell';
+        font-size: 25px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #2F6898;
+        margin: 15px 0 35px;
+    }
+
+    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+        font-family: 'Gotham Pro';
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        font-weight: 200;
+        color: #2F6898;
+    }
+
+    .birthday-wrapper_wave-items-item-name {
+        min-height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(/accets/img/card_img.png) no-repeat;
+        background-size: cover;
+    }
+
+    .birthday-wrapper_wave-items-item-name span {
+        display: none;
+    }
+
+
+    /* BEST */
+
+    .best {
+        margin-top: 470px;
+        display: none;
+    }
+
 
     /* SETS */
     
@@ -890,10 +1282,11 @@
         text-align: center;
         display: block;
         overflow: hidden;
+        margin-top: 500px;
     }
 
     .sets-mobile-wrapper__heading {
-        width: 90%;
+        width: 65%;
         margin: 0 auto 10px;
     }
     
@@ -906,6 +1299,7 @@
         letter-spacing: 0.05em;
         font-weight: bold;
         color: #535353;
+        margin-bottom: 20px;
     }
 
     .sets-mobile-wrapper span {
@@ -957,7 +1351,7 @@
         background: url(/accets/img/mobile_chest_bg.png) no-repeat;
         background-position: center;
         background-size: cover;
-        margin: 20px 10px 0 !important;
+        margin: 20px 60px 0 !important;
         border-radius: 4px;
     }
 
@@ -1000,4 +1394,208 @@
         color: #FFFFFF;
         font-weight: 100;
     }
+
+    .sets-mobile button {
+        width: 500px;
+        height: 80px;
+        background: #FCC617;
+        box-shadow: 0px 5px 10px rgba(58, 106, 150, 0.1);
+        border-radius: 2px;
+        font-family: 'Gotham Pro';
+        font-size: 24px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        font-weight: bold;
+        color: #535353;
+        margin-top: 37px;
+    }
+
+
+    /* BEST-MOBILE */
+
+    .best_mobile {
+        display: block;
+        margin-top: 80px;
+    }
+
+    .best-wrapper-content {
+        padding: 0px 45px;
+    }
+
+    .best-wrapper-content__text-logo {
+        width: 100%;
+        height: 180px;
+        background: url(/accets/img/octopus.png) no-repeat;
+        background-position: center;
+    }
+
+    .best-wrapper-content__text h3 {
+        font-family: 'Rockwell';
+        font-size: 35px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #535353;
+        margin: 30px 0px 22px;
+    }
+
+
+    /* GOALS */
+
+    .goals {
+        width: 100%;
+        height: 545px;
+        background: none;
+        background-position: 0px 0px;
+        background-size: cover;
+    }
+
+    .goals-wrapper-content {
+        padding: 0px 45px 0px;
+    }
+
+    .goals-wrapper-content__kids {
+        display: none;
+        justify-content: space-between;
+    }
+
+    .goals-wrapper-content__parents {
+        display: none;
+        justify-content: space-between;
+    }
+
+    .goals-wrapper-content__reviews {
+        display: none;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .goals-wrapper-content__form-wrapper {
+        width: 100%;
+    }
+
+    .goals-wrapper-content__form-wrapper p {
+        font-family: 'Rockwell';
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        display: none;
+    }
+
+    .goals-wrapper-content__form-mobile-heading {
+        font-family: 'Rockwell';
+        font-size: 35px;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #535353;
+        margin-bottom: 30px;
+    }
+
+
+
+    /* CONTACTS */
+
+    .mobile-footer-bg {
+        display: block;
+        width: 100%;
+        height: 575px;
+        background: url(/accets/img/mobile_footer_bg.png) no-repeat;
+        background-position: 100% 100%;
+        margin-top: 40px;
+    }
+
+    .contacts-wrapper-content {
+        width: 90%;
+        text-align: center;
+    }
+
+    .contacts {
+        width: 100%;
+        background: none;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .contacts-wrapper-content__contacts-icons {
+        display: none;
+    }
+
+    .contacts-wrapper-content__contacts-icons_mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+
+    .contacts-wrapper-content__contacts-icons_insta {
+        background: url(/accets/img/inst_lite_mob_footer.png);
+        background-size: cover;
+        display: block;
+        width: 53px;
+        height: 53px;
+    }
+    
+    .contacts-wrapper-content__contacts-icons_insta:hover {
+        background: url(/accets/img/inst_dark_mob_footer.png);
+        background-size: cover;
+        display: block;
+        width: 53px;
+        height: 53px;
+    }
+    
+    .contacts-wrapper-content__contacts-icons_vk {
+        background: url(/accets/img/vk_lite_mob_footer.png);
+        background-size: cover;
+        display: block;
+        width: 53px;
+        height: 53px;
+    }
+    
+    .contacts-wrapper-content__contacts-icons_vk:hover {
+        background: url(/accets/img/vk_dark_mob_footer.png);
+        background-size: cover;
+        display: block;
+        width: 53px;
+        height: 53px;
+    }
+    
+    .contacts-wrapper-content__contacts-icons_fb {
+        background: url(/accets/img/fb_lite_mob_footer.png);
+        background-size: cover;
+        display: block;
+        width: 53px;
+        height: 53px;
+    }
+    
+    .contacts-wrapper-content__contacts-icons_fb:hover {
+        background: url(/accets/img/fb_dark_mob_footer.png);
+        background-size: cover;
+        display: block;
+        width: 53px;
+        height: 53px;
+    }
+
+    .contacts-wrapper-content__btn {
+        width: 529px;
+        height: 80px;
+        background: #FCC617;
+        box-shadow: 0px 5px 10px rgba(58, 106, 150, 0.1);
+        border-radius: 2px;
+        font-family: 'Gotham Pro';
+        font-size: 24px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        font-weight: bold;
+        color: #535353;
+        margin: 30px 0 35px;
+    }
+    
 }
