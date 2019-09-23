@@ -51,7 +51,7 @@ $(document).ready(function(){
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 2
+          slidesToShow: 1
         }
       },
       {
@@ -93,7 +93,24 @@ $(document).ready(function(){
 //start best slider
 
 $(document).ready(function(){
-  $('.best-wrapper-content__slider-img').slick();
+  $('.best-wrapper-content__slider-img').slick({
+        responsive: [{
+          breakpoint: 740,
+          settings: {
+            arrows: false,
+            slidesToShow: 1,
+          }
+        },
+        {
+          breakpoint: 620,
+          settings: {
+            arrows: false,
+
+            slidesToShow: 1,
+          }
+        }
+      ]
+  });
 });
 	
 
@@ -113,6 +130,22 @@ openBtn.addEventListener("click", function () {
   else map.style.display = 'none'
 
 });
+
+//menu button
+
+var map = document.querySelector('.map');
+var openBtnMenu = document.querySelector('.contacts-wrapper-content__btn_menu');
+map.style.display = 'none'
+
+
+openBtnMenu.addEventListener("click", function () {
+
+  if (map.style.display == 'none') map.style.display = 'block';
+  else map.style.display = 'none'
+
+});
+
+
 
 // map close
 
@@ -173,12 +206,12 @@ $(document).ready(function(){
     focusOnSelect: false,
     infinite: true,
     responsive: [{
-        breakpoint: 768,
+        breakpoint: 820,
         settings: {
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 2,
+          slidesToShow: 1,
         }
       },
       {
@@ -195,3 +228,30 @@ $(document).ready(function(){
 });
 
 // end mobile scroll chests
+
+
+
+// start Gallery
+
+//gallery open
+
+var gallery = document.querySelector('.gallery');
+var openBtnGallery = document.querySelector('.goals-wrapper-content__kids-text-btn');
+gallery.style.display = 'none'
+
+
+openBtnGallery.addEventListener("click", function () {
+
+  if (gallery.style.display == 'none') gallery.style.display = 'block';
+  else gallery.style.display = 'none'
+
+});
+
+//gallery close
+
+$(document).ready(function(){
+
+$('.gallery-wrapper-content').flipLightBox({ lightbox_flip_speed: 500, lightbox_border_color: '#4075A5' });
+
+})
+// end Gallery
