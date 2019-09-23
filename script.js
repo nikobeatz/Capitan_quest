@@ -254,4 +254,4 @@ $(document).ready(function(){
 $('.gallery-wrapper-content').flipLightBox({ lightbox_flip_speed: 500, lightbox_border_color: '#4075A5' });
 
 })
-// end Gallery
+// end Gallery 

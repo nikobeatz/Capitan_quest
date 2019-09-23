@@ -118,7 +118,7 @@ button {
 }
 
 .menu-wrapper-content__links-tab li:hover {
-    background: url(/accets/img/link_marker.png) no-repeat 0px 0px;
+    background: url('link_marker.png') no-repeat 0px 0px;
     padding-right: 10px;
     margin: 0px 0px 25px 0px;
 }
@@ -189,7 +189,7 @@ button {
 }
 
 .menu-wrapper-content__contacts-icons_insta {
-    background: url(/accets/img/menu_btn_lite_inst.png);
+    background: url('menu_btn_lite_inst.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -197,11 +197,11 @@ button {
 }
 
 .menu-wrapper-content__contacts-icons_insta:hover {
-    background: url(/accets/img/menu_btn_dark_inst.png);
+    background: url('menu_btn_dark_inst.png');
 }
 
 .menu-wrapper-content__contacts-icons_vk {
-    background: url(/accets/img/menu_btn_lite_vk.png);
+    background: url('menu_btn_lite_vk.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -209,11 +209,11 @@ button {
 }
 
 .menu-wrapper-content__contacts-icons_vk:hover {
-    background: url(/accets/img/menu_btn_dark_vk.png);
+    background: url('menu_btn_dark_vk.png');
 }
 
 .menu-wrapper-content__contacts-icons_fb {
-    background: url(/accets/img/menu_btn_lite_fb.png);
+    background: url('menu_btn_lite_fb.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -221,7 +221,7 @@ button {
 }
 
 .menu-wrapper-content__contacts-icons_fb:hover {
-    background: url(/accets/img/menu_btn_dark_fb.png);
+    background: url('menu_btn_dark_fb.png');
 }
 
 
@@ -241,7 +241,7 @@ button {
     max-width: 1440px;
     height: 590px;
     margin: 0 auto;
-    background: url(/accets/img/banner_bg.png) no-repeat;
+    background: url(banner_bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -322,7 +322,7 @@ button {
 }
 
 .banner-wrapper-contacts__social-insta {
-    background: url(/accets/img/contacts_social_lite_inst.png);
+    background: url('contacts_social_lite_inst.png');
     background-size: cover;
     display: block;
     width: 16px;
@@ -330,7 +330,7 @@ button {
 }
 
 .banner-wrapper-contacts__social-insta:hover {
-    background: url(/accets/img/contacts_social_dark_inst.png);
+    background: url('contacts_social_dark_inst.png');
     background-size: cover;
     display: block;
     width: 16px;
@@ -338,7 +338,7 @@ button {
 }
 
 .banner-wrapper-contacts__social-vk {
-    background: url(/accets/img/contacts_social_lite_vk.png);
+    background: url('contacts_social_lite_vk.png');
     background-size: cover;
     display: block;
     width: 23px;
@@ -346,7 +346,7 @@ button {
 }
 
 .banner-wrapper-contacts__social-vk:hover {
-    background: url(/accets/img/contacts_social_dark_vk.png);
+    background: url('contacts_social_dark_vk.png');
     background-size: cover;
     display: block;
     width: 23px;
@@ -368,7 +368,7 @@ button {
 .birthday {
     width: 100%;
     background-color: #fff;
-    background: url(/accets/img/waves_bg.png) no-repeat;
+    background: url('waves_bg.png') no-repeat;
     background-position: 0px 400px;
     background-size: contain;
 }
@@ -386,7 +386,7 @@ button {
 .birthday-wrapper-content {
     width: 55%;
     height: 380px;
-    background: url(/accets/img/capitan_head.png) no-repeat;
+    background: url('capitan_head.png') no-repeat;
     background-position: center;
 }
 
@@ -462,7 +462,7 @@ button {
     align-items: flex-end;
     height: 85%;
     border-radius: 11px;
-    background: url(/accets/img/card_img.png) no-repeat;
+    background: url('card_img.png') no-repeat;
     background-size: cover;
 }
 
@@ -646,12 +646,12 @@ button {
 
 .prv_b {
     left: 10px;
-    background: url(images/prv.png) no-repeat;
+    background: url('images/prv.png') no-repeat;
 }
 
 .nxt_b {
     right: 10px;
-    background: url(images/nxt.png) no-repeat;
+    background: url('images/nxt.png') no-repeat;
 }
 
 
@@ -673,7 +673,7 @@ button {
 
 .sets-wrapper-content {
     height: 822px;
-    background: url(/accets/img/sea_bg.png) no-repeat;
+    background: url('sea_bg.png') no-repeat;
     background-size: cover;
     background-position: center;
     padding: 87px 137px 0px;
@@ -771,7 +771,7 @@ h4 {
 }
 
 .sets-wrapper-content__chests {
-    background: url(/accets/img/ship_bg.png) no-repeat;
+    background: url('ship_bg.png') no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -820,7 +820,7 @@ h4 {
 .goals {
     width: 100%;
     height: 2545px;
-    background: url(/accets/img/shape_bg_long.png) no-repeat;
+    background: url('shape_bg_long.png') no-repeat;
     background-position: 0px 0px;
     background-size: cover;
 }
@@ -951,7 +951,7 @@ h4 {
 
 .goals-wrapper-content__form {
     height: 437px;
-    background: url(/accets/img/map_bg.png) no-repeat;
+    background: url('map_bg.png') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1064,7 +1064,7 @@ form>button {
 
 .contacts {
     width: 100%;
-    background: url(/accets/img/sea_animals_bg.png) no-repeat;
+    background: url('sea_animals_bg.png') no-repeat;
     background-size: cover;
     padding-bottom: 35px;
 }
@@ -1136,7 +1136,7 @@ form>button {
 }
 
 .contacts-wrapper-content__contacts-icons_insta {
-    background: url(/accets/img/contacts_lite_inst.png);
+    background: url('contacts_lite_inst.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -1144,7 +1144,7 @@ form>button {
 }
 
 .contacts-wrapper-content__contacts-icons_insta:hover {
-    background: url(/accets/img/contacts_dark_inst.png);
+    background: url('contacts_dark_inst.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -1152,7 +1152,7 @@ form>button {
 }
 
 .contacts-wrapper-content__contacts-icons_vk {
-    background: url(/accets/img/contacts_lite_vk.png);
+    background: url('contacts_lite_vk.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -1160,7 +1160,7 @@ form>button {
 }
 
 .contacts-wrapper-content__contacts-icons_vk:hover {
-    background: url(/accets/img/contacts_dark_vk.png);
+    background: url('contacts_dark_vk.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -1168,7 +1168,7 @@ form>button {
 }
 
 .contacts-wrapper-content__contacts-icons_fb {
-    background: url(/accets/img/contacts_lite_fb.png);
+    background: url('contacts_lite_fb.png');
     background-size: cover;
     display: block;
     width: 40px;
@@ -1176,7 +1176,7 @@ form>button {
 }
 
 .contacts-wrapper-content__contacts-icons_fb:hover {
-    background: url(/accets/img/contacts_dark_fb.png);
+    background: url('contacts_dark_fb.png');
     background-size: cover;
     display: block;
     width: 40px;
