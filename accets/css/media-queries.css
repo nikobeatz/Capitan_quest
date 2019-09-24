@@ -396,7 +396,7 @@
 
     .contacts {
         width: 100%;
-        background: url('sea_animals_bg.png') no-repeat;
+        background: url('../img/sea_animals_bg.png') no-repeat;
         background-size: 100% 100%;
         background-position: center;
     }
@@ -574,7 +574,7 @@
     }
 
     .menu-wrapper-content__contacts-icons_insta {
-        background: url('menu_btn_lite_inst.png');
+        background: url('../img/menu_btn_lite_inst.png');
         background-size: cover;
         display: block;
         width: 30px;
@@ -582,11 +582,11 @@
     }
     
     .menu-wrapper-content__contacts-icons_insta:hover {
-        background: url('menu_btn_dark_inst.png');
+        background: url('../img/menu_btn_dark_inst.png');
     }
     
     .menu-wrapper-content__contacts-icons_vk {
-        background: url('menu_btn_lite_vk.png');
+        background: url('../img/menu_btn_lite_vk.png');
         background-size: cover;
         display: block;
         width: 30px;
@@ -594,11 +594,11 @@
     }
     
     .menu-wrapper-content__contacts-icons_vk:hover {
-        background: url('menu_btn_dark_vk.png');
+        background: url('../img/menu_btn_dark_vk.png');
     }
     
     .menu-wrapper-content__contacts-icons_fb {
-        background: url('menu_btn_lite_fb.png');
+        background: url('../img/menu_btn_lite_fb.png');
         background-size: cover;
         display: block;
         width: 30px;
@@ -606,7 +606,7 @@
     }
     
     .menu-wrapper-content__contacts-icons_fb:hover {
-        background: url('menu_btn_dark_fb.png');
+        background: url('../img/menu_btn_dark_fb.png');
     }
 
     /* MENU */
@@ -1049,7 +1049,7 @@
         max-width: 1440px;
         height: 1065px;
         margin: 0 auto;
-        background: url('mobile_banner_bg.png') no-repeat;
+        background: url('../img/mobile_banner_bg.png') no-repeat;
         background-size: 100% 100%;
         background-position: center;
     }
@@ -1141,7 +1141,7 @@
         width: 100%;
         height: 708px;
         background-color: #fff;
-        background: url('mobile_birthday_bg.png') no-repeat;
+        background: url('../img/mobile_birthday_bg.png') no-repeat;
         background-position: center;
         background-size: 100% 100%;
         position: relative;
@@ -1308,7 +1308,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url('card_img.png') no-repeat;
+        background: url('../img/card_img.png') no-repeat;
         background-size: cover;
     }
 
@@ -1404,7 +1404,7 @@
     .sets-mobile-wrapper__item {
         width: 390px !important;
         height: 435px !important;
-        background: url('mobile_chest_bg.png') no-repeat;
+        background: url('../img/mobile_chest_bg.png') no-repeat;
         background-position: center;
         background-size: cover;
         margin: 20px 170px 0 !important;
@@ -1427,7 +1427,7 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        background: url('mobile_ship.png') no-repeat;
+        background: url('../img/mobile_ship.png') no-repeat;
         background-position: center bottom;
         background-size: 100%;
     }
@@ -1482,7 +1482,7 @@
     .best-wrapper-content__text-logo {
         width: 100%;
         height: 180px;
-        background: url('octopus.png') no-repeat;
+        background: url('../img/octopus.png') no-repeat;
         background-position: center;
     }
 
@@ -1562,7 +1562,7 @@
         display: block;
         width: 100%;
         height: 575px;
-        background: url('mobile_footer_bg.png') no-repeat;
+        background: url('../img/mobile_footer_bg.png') no-repeat;
         background-position: center;
         background-size: 100% 100%;
         margin-top: 40px;
@@ -1592,7 +1592,7 @@
     }
 
     .contacts-wrapper-content__contacts-icons_insta {
-        background: url('inst_lite_mob_footer.png');
+        background: url('../img/inst_lite_mob_footer.png');
         background-size: cover;
         display: block;
         width: 53px;
@@ -1600,7 +1600,7 @@
     }
     
     .contacts-wrapper-content__contacts-icons_insta:hover {
-        background: url('inst_dark_mob_footer.png');
+        background: url('../img/inst_dark_mob_footer.png');
         background-size: cover;
         display: block;
         width: 53px;
@@ -1608,7 +1608,7 @@
     }
     
     .contacts-wrapper-content__contacts-icons_vk {
-        background: url('vk_lite_mob_footer.png');
+        background: url('../img/vk_lite_mob_footer.png');
         background-size: cover;
         display: block;
         width: 53px;
@@ -1616,7 +1616,7 @@
     }
     
     .contacts-wrapper-content__contacts-icons_vk:hover {
-        background: url('vk_dark_mob_footer.png');
+        background: url('../img/vk_dark_mob_footer.png');
         background-size: cover;
         display: block;
         width: 53px;
@@ -1624,7 +1624,7 @@
     }
     
     .contacts-wrapper-content__contacts-icons_fb {
-        background: url('fb_lite_mob_footer.png');
+        background: url('../img/fb_lite_mob_footer.png');
         background-size: cover;
         display: block;
         width: 53px;
@@ -1632,7 +1632,7 @@
     }
     
     .contacts-wrapper-content__contacts-icons_fb:hover {
-        background: url('fb_dark_mob_footer.png');
+        background: url('../img/fb_dark_mob_footer.png');
         background-size: cover;
         display: block;
         width: 53px;
@@ -1764,7 +1764,7 @@
     .sets-mobile-wrapper__item {
         width: 410px !important;
         height: 435px !important;
-        background: url('mobile_chest_bg.png') no-repeat;
+        background: url('../img/mobile_chest_bg.png') no-repeat;
         background-position: center;
         background-size: cover;
         margin: 20px 110px 0 !important;
@@ -1797,7 +1797,7 @@
     /* MENU */
 
     .menu-wrapper {
-        background: url('mobile_menu_bg.png') no-repeat;
+        background: url('../img/mobile_menu_bg.png') no-repeat;
         background-position: 50% 11%;
     }
 
@@ -1909,7 +1909,7 @@
     .sets-mobile-wrapper__item {
         width: 410px !important;
         height: 435px !important;
-        background: url('mobile_chest_bg.png') no-repeat;
+        background: url('../img/mobile_chest_bg.png') no-repeat;
         background-position: center;
         background-size: cover;
         margin: 20px 85px 0 !important;
@@ -1941,7 +1941,7 @@
     /* MENU */
 
     .menu-wrapper {
-        background: url('mobile_menu_bg.png') no-repeat;
+        background: url('../img/mobile_menu_bg.png') no-repeat;
         background-position: 50% 11%;
     }
 
@@ -2092,7 +2092,7 @@
     .sets-mobile-wrapper__item {
         width: 410px !important;
         height: 435px !important;
-        background: url('mobile_chest_bg.png') no-repeat;
+        background: url('../img/mobile_chest_bg.png') no-repeat;
         background-position: center;
         background-size: cover;
         margin: 20px 55px 0 !important;
@@ -2205,7 +2205,7 @@
     /* MENU */
 
     .menu-wrapper {
-        background: url('mobile_menu_bg.png') no-repeat;
+        background: url('../img/mobile_menu_bg.png') no-repeat;
         background-position: 50% 11%;
     }
 
@@ -2345,7 +2345,7 @@
     .sets-mobile-wrapper__item {
         width: 410px !important;
         height: 435px !important;
-        background: url('mobile_chest_bg.png') no-repeat;
+        background: url('../img/mobile_chest_bg.png') no-repeat;
         background-position: center;
         background-size: cover;
         margin: 20px 35px 0 !important;
