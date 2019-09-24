@@ -80,6 +80,10 @@ button {
     margin-left: 10px;
 }
 
+.menu_button {
+    background: transparent;
+}
+
 
 
 /* MENU */
@@ -88,7 +92,7 @@ button {
 .menu {
     width: 100%;
     background-color: #fff;
-    position: sticky;
+    position: fixed;
     top: 71px;
     z-index: 99;
 }
@@ -460,27 +464,32 @@ button {
 .birthday-wrapper_wave-items-item-photo {
     display: flex;
     align-items: flex-end;
-    height: 85%;
+    height: 80%;
     border-radius: 11px;
     background: url('../img/card_img.png') no-repeat;
     background-size: cover;
 }
 
 .birthday-wrapper_wave-items-item-photo-description {
-    height: auto;
+    height: 100%;
     width: 100%;
     padding: 10px;
+    display: flex;
+    align-items: flex-end;
     text-align: center;
-    background: linear-gradient(0deg, rgba(34, 101, 163, .5), rgba(103, 0, 31, .0)); 
+    background: linear-gradient(0deg, rgba(34, 101, 163, 1), rgba(103, 0, 31, .0)); 
 }
 
 .birthday-wrapper_wave-items-item-photo-description span {
     color: #fff;
     text-align: center;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    line-height: 14px;
 }
 
 .birthday-wrapper_wave-items-item-name {
-    min-height: 15%;
+    min-height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -695,6 +704,7 @@ h4 {
 
 .sets-wrapper-content__item-wrapper-four {
     display: block;
+    height: 40%;
 }
 
 .sets-wrapper-content__item-wrapper-one,
@@ -704,6 +714,7 @@ h4 {
 .sets-wrapper-content__item-wrapper-six,
 .sets-wrapper-content__item-wrapper-seven {
     display: none;
+    height: 40%;
 }  
 
 .sets-wrapper-content__setname {
@@ -778,7 +789,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 61%;
+    height: 55%;
     background-position: center bottom;
     width: 100%;
 }

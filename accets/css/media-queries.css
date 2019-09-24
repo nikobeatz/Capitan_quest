@@ -31,7 +31,19 @@
         margin-top: 30px;
     }
 
+    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+        display: none;
+    }
+
+    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+        display: none;
+    }
+
     .best_mobile {
+        display: none;
+    }
+
+    .goals-wrapper-content__form-mobile-heading {
         display: none;
     }
 
@@ -68,6 +80,14 @@
         margin-top: 30px;
     }
 
+    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+        display: none;
+    }
+
+    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+        display: none;
+    }
+
     .menu-wrapper-content__contacts>a:nth-child(3) {
         display: none;
     }
@@ -92,6 +112,10 @@
     }
 
     .best_mobile {
+        display: none;
+    }
+
+    .goals-wrapper-content__form-mobile-heading {
         display: none;
     }
 
@@ -1316,6 +1340,14 @@
         display: none;
     }
 
+    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+        display: block;
+    }
+
+    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+        display: block;
+    }
+
 
     /* BEST */
 
@@ -1413,7 +1445,7 @@
 
     .sets-mobile-wrapper__item-heading {
         width: auto;
-        height: 20%;
+        height: 30%;
         padding: 0px 10px 0px;
         display: flex;
         align-items: center;
@@ -1422,7 +1454,7 @@
 
     .sets-mobile-wrapper__item-description {
         width: auto;
-        height: 80%;
+        height: 70%;
         padding: 0px 10px 0px;
         display: flex;
         align-items: flex-start;
@@ -1440,6 +1472,7 @@
         letter-spacing: 0.05em;
         font-weight: bold;
         color: #FFFFFF;
+        padding-top: 20px;
     }
 
     .sets-mobile-wrapper__item-description p {
@@ -1449,6 +1482,7 @@
         text-align: center;
         color: #FFFFFF;
         font-weight: 100;
+        padding-top: 15px;
     }
 
     .sets-mobile button {
@@ -1541,6 +1575,18 @@
         color: #FFFFFF;
         margin-bottom: 10px;
         display: none;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    form>button {
+        width: 70%;
+    }
+
+    .goals-wrapper-content__form-mobile-heading {
+        display: block;
     }
 
     .goals-wrapper-content__form-mobile-heading {
