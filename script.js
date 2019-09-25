@@ -42,6 +42,7 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 5,
+    appendDots: $('.birthday-wrapper-content'),
     arrows: true,
     focusOnSelect: false,
     infinite: true,
@@ -49,6 +50,7 @@ $(document).ready(function(){
         breakpoint: 821,
         settings: {
           arrows: false,
+          dots: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1
@@ -58,6 +60,7 @@ $(document).ready(function(){
         breakpoint: 620,
         settings: {
           arrows: false,
+          dots: true,
           centerMode: false,
           centerPadding: '40px',
           slidesToShow: 1
@@ -92,26 +95,26 @@ $(document).ready(function(){
 
 //start best slider
 
-$(document).ready(function(){
-  $('.best-wrapper-content__slider-img').slick({
-        responsive: [{
-          breakpoint: 740,
-          settings: {
-            arrows: false,
-            slidesToShow: 1,
-          }
-        },
-        {
-          breakpoint: 620,
-          settings: {
-            arrows: false,
+// $(document).ready(function(){
+//   $('.best-wrapper-content__slider-img').slick({
+//         responsive: [{
+//           breakpoint: 740,
+//           settings: {
+//             arrows: false,
+//             slidesToShow: 1,
+//           }
+//         },
+//         {
+//           breakpoint: 620,
+//           settings: {
+//             arrows: false,
 
-            slidesToShow: 1,
-          }
-        }
-      ]
-  });
-});
+//             slidesToShow: 1,
+//           }
+//         }
+//       ]
+//   });
+// });
 	
 
 //end best slider
@@ -201,6 +204,7 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 3,
+    appendDots: $('.sets-mobile-wrapper__heading'),
     slidesToScroll: 1,
     arrows: true,
     focusOnSelect: false,
@@ -210,6 +214,7 @@ $(document).ready(function(){
         settings: {
           arrows: false,
           centerMode: true,
+          dots: true,
           centerPadding: '40px',
           slidesToShow: 1,
         }
@@ -219,6 +224,7 @@ $(document).ready(function(){
         settings: {
           arrows: false,
           centerMode: true,
+          dots: true,
           centerPadding: '40px',
           slidesToShow: 1,
         }
