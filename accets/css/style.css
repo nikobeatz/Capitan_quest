@@ -770,6 +770,7 @@ button {
 .sets {
     width: 100%;
     background-color: #fff;
+    margin-top: 70px;
 }
 
 .sets-wrapper {
@@ -783,7 +784,7 @@ button {
     background: url('../img/sea_bg.png') no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 87px 137px 0px;
+    padding: 60px 100px 0px;
     text-align: center;
 }
 
@@ -846,21 +847,30 @@ h4 {
 .sets-wrapper-content__duration {
     font-family: 'Gotham Pro';
     font-size: 15px;
-    line-height: 14px;
+    line-height: 21px;
     text-align: center;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
 
+.item-inclisive {
+    font-family: 'Gotham Pro';
+    font-size: 17px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
 .sets-wrapper-content span {
     font-family: 'Gotham Pro';
     font-size: 15px;
-    line-height: 30px;
+    line-height: 22px;
     text-align: center;
     color: #FFFFFF;
     font-weight: 100;
-
 }
 
 .sets-wrapper-content__order-btn {
@@ -889,9 +899,10 @@ h4 {
     width: 100%;
 }
 
+
+
 .sets-wrapper-content__chests-item_center {
     height: 90%;
-    width: 13%;
 }
 
 .sets-wrapper-content__chests-item_center .sets-wrapper-content__chests-item-img-closed {
@@ -905,24 +916,34 @@ h4 {
 .sets-wrapper-content__chests-item_center-right,
 .sets-wrapper-content__chests-item_center-left {
     height: 74%;
-    width: 13%;
+}
+
+.sets-wrapper-content__chests-item_middle-left,
+.sets-wrapper-content__chests-item_center-left {
+    width: 99px;
 }
 
 .sets-wrapper-content__chests-item_middle-right,
 .sets-wrapper-content__chests-item_middle-left {
     height: 55%;
-    width: 13%;
 }
 
 .sets-wrapper-content__chests-item_right,
 .sets-wrapper-content__chests-item_left {
     height: 22%;
-    width: 13%;
 }
 
 .sets-wrapper-content__chests-item-img-opened {
     display: none;
+    width: 99px;
+    height: 85px;
 }
+
+.sets-wrapper-content__chests-item-img-closed_gold {
+    width: 70px;
+    height: 56px;
+}
+
 
 /* GOALS */
 
@@ -1024,6 +1045,17 @@ h4 {
 .goals-wrapper-content__reviews-text {
     width: 39%;
     padding: 90px 0 0 80px;
+}
+
+.goals-wrapper-content__reviews-image {
+    background: url('../img/turttle.png') no-repeat;
+    background-position: top right;
+    display: flex;align-items: center;
+    width: 50%;
+}
+
+.goals-wrapper-content__reviews-image img {
+    width: 100%;
 }
 
 .goals-wrapper-content__reviews-text p {
@@ -1309,6 +1341,22 @@ form>button {
 .map-wrapper-content {
     display: block;
     text-align: center;
+}
+
+.map-wrapper-content__description {
+    margin-bottom: 30px;
+}
+
+.map-wrapper-content__description button {
+    font-family: 'Gotham Pro';
+    font-size: 16px;
+    line-height: 30px;
+    color: #535353;
+    border: 2px solid #FFB13C;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(58, 106, 150, 0.1);
 }
 
 .map-wrapper-content__map-img {

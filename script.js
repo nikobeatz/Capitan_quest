@@ -171,8 +171,8 @@ function move(to, from) {
     // console.log(direction);
 
     let descriptionItems = document.getElementsByClassName('sets-wrapper-content__item-wrapper');
-    let openedChests = document.getElementsByClassName('sets-wrapper-content__chests-item-img-opened')
-    let closedChests = document.getElementsByClassName('sets-wrapper-content__chests-item-img-closed')
+    let openedChests = document.getElementsByClassName('sets-wrapper-content__chests-item-img-opened');
+    let closedChests = document.getElementsByClassName('sets-wrapper-content__chests-item-img-closed');
 
     for (let i = 0; i < 7; i++) {
         i === to ? descriptionItems[i].style.display = 'block' : descriptionItems[i].style.display = 'none';

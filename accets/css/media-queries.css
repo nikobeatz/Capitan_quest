@@ -221,6 +221,15 @@
         font-size: 2.9vw;
     }
 
+    .sets-wrapper-content span {
+        font-family: 'Gotham Pro';
+        font-size: 1.2vw;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 100;
+    }
+
 
     /* GOALS */
     .goals {
@@ -880,6 +889,12 @@
 
     /* SETS */
 
+    .sets-wrapper {
+        max-width: 1440px;
+        padding: 0px 50px;
+        margin: 0 auto;
+    }
+
     .sets-wrapper-content__item-wrapper-four {
         display: block;
     }
@@ -963,12 +978,29 @@
     .sets-wrapper-content span {
         font-family: 'Gotham Pro';
         font-size: 13px;
-        line-height: 30px;
+        line-height: 16px;
         text-align: center;
         color: #FFFFFF;
         font-weight: 100;
     
     }
+
+    .sets-wrapper-content__order-btn {
+        margin-top: 10px;
+        background: #3A6A96;
+        box-shadow: 0px 5px 10px rgba(58, 106, 150, 0.1);
+        border-radius: 2px;
+        width: 250px;
+        height: 40px;
+        font-family: 'Gotham Pro';
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
 
 
     /* GOALS */
@@ -1592,7 +1624,7 @@
 
     .sets-mobile-wrapper__item-heading p {
         font-family: 'Rockwell';
-        font-size: 22px;
+        font-size: 3vw;
         line-height: 110%;
         text-align: center;
         letter-spacing: 0.05em;
@@ -1603,7 +1635,7 @@
 
     .sets-mobile-wrapper__item-description p {
         font-family: 'Gotham Pro';
-        font-size: 14px;
+        font-size: 1.7vw;
         line-height: 140%;
         text-align: center;
         color: #FFFFFF;
@@ -1666,6 +1698,7 @@
         background: none;
         background-position: 0px 0px;
         background-size: cover;
+        margin-top: 40px;
     }
 
     .goals-wrapper-content {
@@ -1962,6 +1995,7 @@
         margin: 20px 110px 0 !important;
         border-radius: 4px;
     }
+    
 
     .sets-mobile button {
         width: 75%;
@@ -2106,6 +2140,27 @@
         background-size: cover;
         margin: 20px 85px 0 !important;
         border-radius: 4px;
+    }
+
+    .sets-mobile-wrapper__item-heading p {
+        font-family: 'Rockwell';
+        font-size: 3vw;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+
+    .sets-mobile-wrapper__item-description p {
+        font-family: 'Gotham Pro';
+        font-size: 2vw;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 100;
+        padding-top: 15px;
     }
 
     .sets-mobile button {
@@ -2571,6 +2626,27 @@
         background-size: cover;
         margin: 20px 35px 0 !important;
         border-radius: 4px;
+    }
+
+    .sets-mobile-wrapper__item-heading p {
+        font-family: 'Rockwell';
+        font-size: 4vw;
+        line-height: 110%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+
+    .sets-mobile-wrapper__item-description p {
+        font-family: 'Gotham Pro';
+        font-size: 2.7vw;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 100;
+        padding-top: 15px;
     }
 
     .sets-mobile button {
