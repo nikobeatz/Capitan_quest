@@ -46,7 +46,7 @@ $(document).ready(function(){
     focusOnSelect: false,
     infinite: true,
     responsive: [{
-        breakpoint: 820,
+        breakpoint: 821,
         settings: {
           arrows: false,
           centerMode: true,
@@ -206,7 +206,7 @@ $(document).ready(function(){
     focusOnSelect: false,
     infinite: true,
     responsive: [{
-        breakpoint: 820,
+        breakpoint: 821,
         settings: {
           arrows: false,
           centerMode: true,

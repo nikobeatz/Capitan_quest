@@ -251,11 +251,22 @@ button {
 }
 
 .banner-wrapper-content__heading {
-    display: flex;
-    width: 100%;
-    height: 58%;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 50%;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+}
+
+.banner-wrapper-content__heading_text {
+    font-family: 'Rockwell';
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 200;
+    color: #FFFFFF;
 }
 
 .banner-wrapper-content__heading h1 {
@@ -466,12 +477,96 @@ button {
     align-items: flex-end;
     height: 80%;
     border-radius: 11px;
-    background: url('../img/card_img.png') no-repeat;
+}
+
+.wave-items-item-photo_1 {
+    background: url('../img/mafia_bg.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_2 {
+    background: url('../img/pinyata_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_3 {
+    background: url('../img/magic_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_4 {
+    background: url('../img/animals_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_5 {
+    background: url('../img/workshops_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_6 {
+    background: url('../img/mafia_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_7 {
+    background: url('../img/mafia_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_8 {
+    background: url('../img/pie_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_9 {
+    background: url('../img/mafia_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_10 {
+    background: url('../img/invitations_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_11 {
+    background: url('../img/photoshoot_bg.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_12 {
+    background: url('../img/mafia_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_13 {
+    background: url('../img/mafia_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_14 {
+    background: url('../img/facepaint_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_15 {
+    background: url('../img/chemical_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_16 {
+    background: url('../img/lasertag_bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wave-items-item-photo_17 {
+    background: url('../img/animators_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .birthday-wrapper_wave-items-item-photo-description {
-    height: 100%;
+    height: 90%;
     width: 100%;
     padding: 10px;
     display: flex;
@@ -484,7 +579,7 @@ button {
     color: #fff;
     text-align: center;
     font-family: 'Gotham Pro';
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 14px;
 }
 
@@ -497,7 +592,7 @@ button {
 
 .birthday-wrapper_wave-items-item-name span {
     font-family: 'Rockwell';
-    font-size: 20px;
+    font-size: 1.3vw;
     line-height: 24px;
     text-align: center;
     font-weight: bold;
