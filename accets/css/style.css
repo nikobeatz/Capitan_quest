@@ -505,12 +505,12 @@ button {
     background-position: center;
 }
 .wave-items-item-photo_6 {
-    background: url('../img/mafia_bg.jpg') no-repeat;
+    background: url('../img/live_quests.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 .wave-items-item-photo_7 {
-    background: url('../img/mafia_bg.jpg') no-repeat;
+    background: url('../img/pizza.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -520,7 +520,7 @@ button {
     background-position: center;
 }
 .wave-items-item-photo_9 {
-    background: url('../img/mafia_bg.jpg') no-repeat;
+    background: url('../img/hall_beautify.JPG') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -535,12 +535,12 @@ button {
     background-position: center;
 }
 .wave-items-item-photo_12 {
-    background: url('../img/mafia_bg.jpg') no-repeat;
+    background: url('../img/disco.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 .wave-items-item-photo_13 {
-    background: url('../img/mafia_bg.jpg') no-repeat;
+    background: url('../img/rent.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -659,7 +659,7 @@ button {
     width: 13px;
     height: 12px;
     border-radius: 3px;
-    margin: 0 10px;
+    margin: 0 auto;
     padding: 0;
     cursor: pointer;
 }
@@ -1237,6 +1237,35 @@ form>button {
 
 .gallery-wrapper-content a {
     margin-bottom: 20px;
+    /* width: 400px;
+    height: 250px; */
+} 
+
+/* .gallery-wrapper-content img {
+    width: 400px;
+    height: 250px;
+} */
+
+.flipLightBox-1 img,
+.flipLightBox-2 img,
+.flipLightBox-3 img,
+.flipLightBox-4 img,
+.flipLightBox-5 img,
+.flipLightBox-6 img,
+.flipLightBox-7 img,
+.flipLightBox-8 img,
+.flipLightBox-9 img,
+.flipLightBox-10 img,
+.flipLightBox-11 img,
+.flipLightBox-12 img,
+.flipLightBox-13 img,
+.flipLightBox-14 img,
+.flipLightBox-15 img,
+.flipLightBox-16 img,
+.flipLightBox-17 img,
+.flipLightBox-18 img {
+    width: 400px;
+    height: 250px;
 }
 
 
@@ -1397,6 +1426,7 @@ form>button {
     height: 40px;
     border-radius: 8px;
     box-shadow: 0px 5px 10px rgba(58, 106, 150, 0.1);
+    background-color: #fff;
 }
 
 .map-wrapper-content__map-img {

@@ -1434,12 +1434,12 @@
         background-position: center;
     }
     .wave-items-item-name_6 {
-        background: url('../img/mafia_bg.jpg') no-repeat;
+        background: url('../img/live_quests.jpg') no-repeat;
         background-size: cover;
         background-position: center;
     }
     .wave-items-item-name_7 {
-        background: url('../img/mafia_bg.jpg') no-repeat;
+        background: url('../img/pizza.jpg') no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -1449,14 +1449,14 @@
         background-position: center;
     }
     .wave-items-item-name_9 {
-        background: url('../img/mafia_bg.jpg') no-repeat;
+        background: url('../img/hall_beautify.JPG') no-repeat;
         background-size: cover;
         background-position: center;
     }
     .wave-items-item-name_10 {
         background: url('../img/invitations_bg.jpg') no-repeat;
         background-size: cover;
-        background-position:  center;
+        background-position: top center;
     }
     .wave-items-item-name_11 {
         background: url('../img/photoshoot_bg.jpeg') no-repeat;
@@ -1464,12 +1464,12 @@
         background-position: center;
     }
     .wave-items-item-name_12 {
-        background: url('../img/mafia_bg.jpg') no-repeat;
+        background: url('../img/disco.jpeg') no-repeat;
         background-size: cover;
         background-position: center;
     }
     .wave-items-item-name_13 {
-        background: url('../img/mafia_bg.jpg') no-repeat;
+        background: url('../img/rent.jpg') no-repeat;
         background-size: cover;
         background-position: center;
     }
@@ -1603,7 +1603,7 @@
 
     .sets-mobile-wrapper__item-heading {
         width: auto;
-        height: 30%;
+        height: 15%;
         padding: 0px 10px 0px;
         display: flex;
         align-items: center;
@@ -1612,9 +1612,9 @@
 
     .sets-mobile-wrapper__item-description {
         width: auto;
-        height: 70%;
+        height: 85%;
         padding: 0px 10px 0px;
-        display: flex;
+        display: block;
         align-items: flex-start;
         justify-content: center;
         background: url('../img/mobile_ship.png') no-repeat;
@@ -1630,7 +1630,7 @@
         letter-spacing: 0.05em;
         font-weight: bold;
         color: #FFFFFF;
-        padding-top: 20px;
+        margin-bottom: 0;
     }
 
     .sets-mobile-wrapper__item-description p {
@@ -1640,7 +1640,11 @@
         text-align: center;
         color: #FFFFFF;
         font-weight: 100;
-        padding-top: 15px;
+        padding-top: 5px;
+    }
+
+    .item-description__inclusive-mobile {
+        font-weight: bold !important;
     }
 
     .sets-mobile button {
@@ -2150,7 +2154,6 @@
         letter-spacing: 0.05em;
         font-weight: bold;
         color: #FFFFFF;
-        padding-top: 20px;
     }
 
     .sets-mobile-wrapper__item-description p {
@@ -2160,7 +2163,7 @@
         text-align: center;
         color: #FFFFFF;
         font-weight: 100;
-        padding-top: 15px;
+        padding-top: 5px;
     }
 
     .sets-mobile button {
