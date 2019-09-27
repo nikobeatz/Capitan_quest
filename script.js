@@ -3,8 +3,9 @@
 //start open and close menu
 
 var popup = document.querySelector('.menu');
-var open = document.querySelector('.menu_button');
+var open = document.querySelector('.menu-button');
 popup.style.display = 'none'
+
 
 
 open.addEventListener("click", function () {
@@ -13,6 +14,7 @@ open.addEventListener("click", function () {
   else popup.style.display = 'none'
 
 });
+
 
 //mobile
 
@@ -159,6 +161,10 @@ $("html, body").on('click', '[href*="#"]', function(e){
   var fixed_offset = 100;
   $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
   e.preventDefault();
+
+  if (popup.style.display == 'block') popup.style.display = 'none';
+  else popup.style.display = 'none'
+
 });
 
 //end scroll
