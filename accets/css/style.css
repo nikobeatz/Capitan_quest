@@ -100,6 +100,7 @@ button {
     position: fixed;
     top: 71px;
     z-index: 99;
+    display: none;
 }
 
 .menu-wrapper {
@@ -250,7 +251,7 @@ button {
     max-width: 1440px;
     height: 590px;
     margin: 0 auto;
-    background: url('../img/../img/banner_bg.png') no-repeat;
+    background: url('../img/banner_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -1144,7 +1145,7 @@ h4 {
 .reviews-text__text {
     font-family: 'Gotham Pro';
     font-size: 16px;
-    line-height: 170%;
+    line-height: 130%;
     color: #535353;
     text-indent: 10px;
 }
@@ -1152,7 +1153,7 @@ h4 {
 .reviews-text__text_bold {
     font-family: 'Gotham Pro';
     font-size: 16px;
-    line-height: 170%;
+    line-height: 130%;
     color: #535353;
     text-indent: 10px;
     font-weight: bold;
@@ -1176,7 +1177,7 @@ h4 {
 
 .goals-wrapper-content__form {
     height: 437px;
-    background: url('../img/map_bg.png') no-repeat;
+    background: url('../img/map_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1262,7 +1263,7 @@ form>button {
 
 .gallery {
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     margin-bottom: 30px;
 }
@@ -1281,14 +1282,8 @@ form>button {
 
 .gallery-wrapper-content a {
     margin-bottom: 20px;
-    /* width: 400px;
-    height: 250px; */
 } 
 
-/* .gallery-wrapper-content img {
-    width: 400px;
-    height: 250px;
-} */
 
 .flipLightBox-1 img,
 .flipLightBox-2 img,
@@ -1556,6 +1551,23 @@ form>button {
     .mobile-footer-bg {
         display: none;
     }
+
+    .reviews-text__text {
+        font-family: 'Gotham Pro';
+        font-size: 16px;
+        line-height: 130%;
+        color: #535353;
+        text-indent: 10px;
+    }
+    
+    .reviews-text__text_bold {
+        font-family: 'Gotham Pro';
+        font-size: 16px;
+        line-height: 130%;
+        color: #535353;
+        text-indent: 10px;
+        font-weight: bold;
+    }
 }
 
 @media screen and (max-width: 1350px) {
@@ -1698,6 +1710,7 @@ form>button {
         position: sticky;
         top: 71px;
         z-index: 99;
+        display: none;
     }
 
     .menu-wrapper {
@@ -1769,6 +1782,22 @@ form>button {
     .goals-wrapper-content__reviews-image img {
         width: 100%;
     }
+    .reviews-text__text {
+        font-family: 'Gotham Pro';
+        font-size: 16px;
+        line-height: 130%;
+        color: #535353;
+        text-indent: 10px;
+    }
+    
+    .reviews-text__text_bold {
+        font-family: 'Gotham Pro';
+        font-size: 16px;
+        line-height: 130%;
+        color: #535353;
+        text-indent: 10px;
+        font-weight: bold;
+    }
 }
 
 
@@ -1795,6 +1824,7 @@ form>button {
         position: sticky;
         top: 71px;
         z-index: 99;
+        display: none;
     }
 
     .menu-wrapper {
@@ -1934,6 +1964,23 @@ form>button {
         width: 100%;
     }
 
+    .reviews-text__text {
+        font-family: 'Gotham Pro';
+        font-size: 15px;
+        line-height: 120%;
+        color: #535353;
+        text-indent: 10px;
+    }
+    
+    .reviews-text__text_bold {
+        font-family: 'Gotham Pro';
+        font-size: 15px;
+        line-height: 120%;
+        color: #535353;
+        text-indent: 10px;
+        font-weight: bold;
+    }
+
     .goals-wrapper-content__form {
         background-position: right;
     }
@@ -1979,6 +2026,7 @@ form>button {
         position: sticky;
         top: 71px;
         z-index: 99;
+        display: none;
     }
 
     .menu-wrapper {
@@ -2106,7 +2154,7 @@ form>button {
         line-height: 150%;
     }
 
-    .goals-wrapper-content__reviews-text p {
+    .reviews-text__heading {
         font-size: 38px;
         line-height: 53px;
     }
@@ -2114,6 +2162,23 @@ form>button {
     .goals-wrapper-content__reviews-text span {
         font-size: 14px;
         line-height: 150%;
+    }
+
+    .reviews-text__text {
+        font-family: 'Gotham Pro';
+        font-size: 14px;
+        line-height: 120%;
+        color: #535353;
+        text-indent: 10px;
+    }
+    
+    .reviews-text__text_bold {
+        font-family: 'Gotham Pro';
+        font-size: 14px;
+        line-height: 120%;
+        color: #535353;
+        text-indent: 10px;
+        font-weight: bold;
     }
 
     .goals-wrapper-content__form-wrapper {
@@ -2187,6 +2252,7 @@ form>button {
         position: absolute;
         top: 0px;
         z-index: 98;
+        display: none;
     }
 
     .menu-wrapper {
@@ -2551,7 +2617,7 @@ form>button {
         line-height: 140%;
     }
 
-    .goals-wrapper-content__reviews-text p {
+    .reviews-text__heading {
         font-size: 34px;
         line-height: 43px;
     }
@@ -2559,6 +2625,23 @@ form>button {
     .goals-wrapper-content__reviews-text span {
         font-size: 13px;
         line-height: 140%;
+    }
+
+    .reviews-text__text {
+        font-family: 'Gotham Pro';
+        font-size: 12px;
+        line-height: 170%;
+        color: #535353;
+        text-indent: 10px;
+    }
+    
+    .reviews-text__text_bold {
+        font-family: 'Gotham Pro';
+        font-size: 12px;
+        line-height: 170%;
+        color: #535353;
+        text-indent: 10px;
+        font-weight: bold;
     }
 
     .goals-wrapper-content__reviews-text-btn {
@@ -2574,7 +2657,7 @@ form>button {
         letter-spacing: 0.02em;
         font-weight: bold;
         color: #535353;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .goals-wrapper-content__form-wrapper {
@@ -2652,7 +2735,7 @@ form>button {
         max-width: 1440px;
         height: 1065px;
         margin: 0 auto;
-        background: url('../img/mobile_banner_bg.png') no-repeat;
+        background: url('../img/mobile_banner_bg.jpg') no-repeat;
         background-size: 100% 100%;
         background-position: center;
     }
@@ -2744,7 +2827,7 @@ form>button {
         width: 100%;
         height: 708px;
         background-color: #fff;
-        background: url('../img/mobile_birthday_bg.png') no-repeat;
+        background: url('../img/mobile_birthday_bg.jpg') no-repeat;
         background-position: center;
         background-size: 100% 100%;
         position: relative;
