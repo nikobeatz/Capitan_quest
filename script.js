@@ -19,7 +19,7 @@ open.addEventListener("click", function () {
 //mobile
 
 var mobPopup = document.querySelector('.menu');
-var mobOpen = document.querySelector('.menu_button_mobile');
+var mobOpen = document.querySelector('.menu-button_mobile');
 popup.style.display = 'none'
 
 
@@ -40,7 +40,7 @@ mobOpen.addEventListener("click", function () {
 
 $(document).ready(function(){
   
-  $('.birthday-wrapper_wave-items').slick({
+  $('.birthday__slider-items').slick({
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 5,
@@ -125,7 +125,7 @@ $(document).ready(function(){
 // map open
 
 var map = document.querySelector('.map');
-var openBtn = document.querySelector('.contacts-wrapper-content__btn');
+var openBtn = document.querySelector('.menu__contacts-btn');
 map.style.display = 'none'
 
 
@@ -139,7 +139,7 @@ openBtn.addEventListener("click", function () {
 //menu button
 
 var map = document.querySelector('.map');
-var openBtnMenu = document.querySelector('.contacts-wrapper-content__btn_menu');
+var openBtnMenu = document.querySelector('.menu__contacts-btn_menu');
 map.style.display = 'none'
 
 
@@ -248,7 +248,7 @@ $(document).ready(function(){
 //gallery open
 
 var gallery = document.querySelector('.gallery');
-var openBtnGallery = document.querySelector('.goals-wrapper-content__kids-text-btn');
+var openBtnGallery = document.querySelector('.goals__kids-text-btn');
 gallery.style.display = 'none'
 
 

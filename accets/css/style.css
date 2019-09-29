@@ -112,35 +112,35 @@ button {
     padding: 60px 250px 40px;
 }
 
-.menu-wrapper-content__links {
+.menu__links {
     display: flex;
     justify-content: space-between;
 }
 
-.menu-wrapper-content__links-tab {
+.menu__links-tab {
     width: 50%;
 }
 
-.menu-wrapper-content__links-tab li {
+.menu__links-tab li {
     list-style-type: none;
     margin: 0px 0px 25px 0px;
     padding: 7px 0px 0px 50px;
 }
 
-.menu-wrapper-content__links-tab li:hover {
+.menu__links-tab li:hover {
     background: url('../img/link_marker.png') no-repeat 0px 0px;
     padding-right: 10px;
     margin: 0px 0px 25px 0px;
 }
 
-.menu-wrapper-content__links-tab a {
+.menu__links-tab a {
     font-family: 'Rockwell';
     font-size: 30px;
     letter-spacing: 0.06em;
     color: #535353;
 }
 
-.menu-wrapper-content__links-tab a:hover {
+.menu__links-tab a:hover {
     color: #3A6A96;
     font-weight: bold;
 }
@@ -151,24 +151,24 @@ button {
     border: 1px solid #E4E4E4;
 }
 
-.menu-wrapper-content__contacts {
+.menu__contacts {
     display: flex;
     justify-content: space-between;
     padding: 0px 45px;
 }
 
-.menu-wrapper-content__contacts-text {
+.menu__contacts-text {
     width: 50%;
 }
 
-.menu-wrapper-content__contacts-text span {
+.menu__contacts-text span {
     font-family: 'Gotham Pro';
     font-size: 16px;
     line-height: 30px;
     color: #535353;
 }
 
-.menu-wrapper-content__contacts-text p {
+.menu__contacts-text p {
     font-family: 'Rockwell';
     font-size: 30px;
     letter-spacing: 0.06em;
@@ -178,7 +178,7 @@ button {
     margin-bottom: 20px;
 }
 
-.menu-wrapper-content__contacts-text p.phone {
+.menu__contacts-text p.phone {
     font-family: 'Rockwell';
     font-size: 30px;
     line-height: 36px;
@@ -188,17 +188,17 @@ button {
     margin-bottom: 20px;
 }
 
-.menu-wrapper-content__contacts-icons {
+.menu__contacts-icons {
     display: flex;
     width: 43%;
     align-items: center;
 }
 
-.menu-wrapper-content__contacts-icons a {
+.menu__contacts-icons a {
     margin-right: 30px;
 }
 
-.menu-wrapper-content__contacts-icons_insta {
+.menu__contacts-icon_insta {
     background: url('../img/menu_btn_lite_inst.png');
     background-size: cover;
     display: block;
@@ -206,11 +206,11 @@ button {
     height: 40px;
 }
 
-.menu-wrapper-content__contacts-icons_insta:hover {
+.menu__contacts-icon_insta:hover {
     background: url('../img/menu_btn_dark_inst.png');
 }
 
-.menu-wrapper-content__contacts-icons_vk {
+.menu__contacts-icon_vk {
     background: url('../img/menu_btn_lite_vk.png');
     background-size: cover;
     display: block;
@@ -218,11 +218,11 @@ button {
     height: 40px;
 }
 
-.menu-wrapper-content__contacts-icons_vk:hover {
+.menu__contacts-icon_vk:hover {
     background: url('../img/menu_btn_dark_vk.png');
 }
 
-.menu-wrapper-content__contacts-icons_fb {
+.menu__contacts-icon_fb {
     background: url('../img/menu_btn_lite_fb.png');
     background-size: cover;
     display: block;
@@ -230,7 +230,7 @@ button {
     height: 40px;
 }
 
-.menu-wrapper-content__contacts-icons_fb:hover {
+.menu__contacts-icon_fb:hover {
     background: url('../img/menu_btn_dark_fb.png');
 }
 
@@ -256,7 +256,7 @@ button {
     background-position: center;
 }
 
-.banner-wrapper-content__heading {
+.banner__heading {
     display: block;
     width: 60%;
     margin: 0 auto;
@@ -266,7 +266,7 @@ button {
     padding-top: 50px;
 }
 
-.banner-wrapper-content__heading_text {
+.banner__heading-text {
     font-family: 'Rockwell';
     font-size: 18px;
     line-height: 30px;
@@ -276,7 +276,7 @@ button {
     padding-top: 40px;
 }
 
-.banner-wrapper-content__heading h1 {
+.banner__heading h1 {
     font-family: 'Rockwell';
     font-size: 55px;
     line-height: 66px;
@@ -285,7 +285,7 @@ button {
     color: #FFFFFF;
 }
 
-.banner-wrapper-content__button {
+.banner__button {
     display: flex;
     width: 100%;
     height: 24%;
@@ -293,7 +293,7 @@ button {
     align-items: center;
 }
 
-.banner-wrapper-content__button-wrapper {
+.banner__button-wrapper {
     position: relative;
     display: flex;
     width: 30%;
@@ -301,7 +301,7 @@ button {
     align-items: center;
 }
 
-.banner-wrapper-content__button-wrapper button {
+.banner__button-wrapper button {
     width: 340px;
     height: 50px;
     background: #FFFFFF;
@@ -319,13 +319,13 @@ button {
     justify-content: center;
 }
 
-.banner-wrapper-content__button-wrapper img {
+.banner__button-wrapper img {
     position: absolute;
     top: 11px;
     left: 310px;
 }
 
-.banner-wrapper-contacts {
+.banner__contacts {
     max-width: 1440px;
     display: flex;
     margin: 0 auto;
@@ -334,16 +334,16 @@ button {
     padding: 28px 0px;
 }
 
-.banner-wrapper-contacts__social {
+.banner__contacts-icons {
     display: flex;
     align-items: center;
 }
 
-.banner-wrapper-contacts__social a {
+.banner__contacts-icons a {
     margin-right: 21px;
 }
 
-.banner-wrapper-contacts__social-insta {
+.banner__contacts-icons_insta {
     background: url('../img/../img/../img/contacts_social_lite_inst.png');
     background-size: cover;
     display: block;
@@ -351,7 +351,7 @@ button {
     height: 16px;
 }
 
-.banner-wrapper-contacts__social-insta:hover {
+.banner__contacts-icons_insta:hover {
     background: url('../img/contacts_social_dark_inst.png');
     background-size: cover;
     display: block;
@@ -359,7 +359,7 @@ button {
     height: 16px;
 }
 
-.banner-wrapper-contacts__social-vk {
+.banner__contacts-icons_vk {
     background: url('../img/contacts_social_lite_vk.png');
     background-size: cover;
     display: block;
@@ -367,7 +367,7 @@ button {
     height: 13px;
 }
 
-.banner-wrapper-contacts__social-vk:hover {
+.banner__contacts-icons_vk:hover {
     background: url('../img/contacts_social_dark_vk.png');
     background-size: cover;
     display: block;
@@ -375,7 +375,7 @@ button {
     height: 13px;
 }
 
-.banner-wrapper-contacts__social-fb {
+.banner__contacts-icons_fb {
     background: url('../img/menu_btn_lite_fb.png');
     background-size: cover;
     display: block;
@@ -383,7 +383,7 @@ button {
     height: 23px;
 }
 
-.banner-wrapper-contacts__social-fb:hover {
+.banner__contacts-icons_fb:hover {
     background: url('../img/menu_btn_dark_fb.png');
     background-size: cover;
     display: block;
@@ -391,7 +391,7 @@ button {
     height: 23px;
 }
 
-.banner-wrapper-contacts__city span {
+.banner__contacts-city span {
     font-family: 'Gotham Pro';
     font-size: 18px;
     line-height: 17px;
@@ -446,13 +446,13 @@ button {
     color: #535353;
 }
 
-.birthday-wrapper-content__link-sets {
+.birthday__button {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-.birthday-wrapper-content__link-sets-btn {
+.birthday__button-btn {
     width: 300px;
     height: 50px;
     background: #3A6A96;
@@ -469,7 +469,7 @@ button {
 }
 
 
-.birthday-wrapper_wave {
+.birthday__slider {
     width: 100%;
     height: 596px;
     
@@ -477,7 +477,7 @@ button {
     overflow: hidden;
 }
 
-.birthday-wrapper_wave-items {
+.birthday__slider-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -486,7 +486,7 @@ button {
     overflow: hidden;
 }
 
-.birthday-wrapper_wave-items-item {
+.slider-items__item {
     width: 276px !important;
     height: 360px !important;
     background: #FFFFFF;
@@ -495,100 +495,100 @@ button {
     margin: 0px 20px;
 }
 
-.birthday-wrapper_wave-items-item-photo {
+.slider-items__item-photo {
     display: flex;
     align-items: flex-end;
     height: 80%;
     border-radius: 11px;
 }
 
-.wave-items-item-photo_1 {
+.item-photo_1 {
     background: url('../img/mafia_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_2 {
+.item-photo_2 {
     background: url('../img/pinyata_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_3 {
+.item-photo_3 {
     background: url('../img/magic_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_4 {
+.item-photo_4 {
     background: url('../img/animals_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_5 {
+.item-photo_5 {
     background: url('../img/workshops_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_6 {
+.item-photo_6 {
     background: url('../img/live_quests.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_7 {
+.item-photo_7 {
     background: url('../img/pizza.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_8 {
+.item-photo_8 {
     background: url('../img/pie_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_9 {
+.item-photo_9 {
     background: url('../img/hall_beautify.JPG') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_10 {
+.item-photo_10 {
     background: url('../img/invitations_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_11 {
+.item-photo_11 {
     background: url('../img/photoshoot_bg.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_12 {
+.item-photo_12 {
     background: url('../img/disco.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_13 {
+.item-photo_13 {
     background: url('../img/rent.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_14 {
+.item-photo_14 {
     background: url('../img/facepaint_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_15 {
+.item-photo_15 {
     background: url('../img/chemical_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_16 {
+.item-photo_16 {
     background: url('../img/lasertag_bg.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
-.wave-items-item-photo_17 {
+.item-photo_17 {
     background: url('../img/animators_bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.birthday-wrapper_wave-items-item-photo-description {
+.slider-items__item-photo-description {
     height: 90%;
     width: 100%;
     padding: 10px;
@@ -598,7 +598,7 @@ button {
     background: linear-gradient(0deg, rgba(34, 101, 163, 1), rgba(103, 0, 31, .0)); 
 }
 
-.birthday-wrapper_wave-items-item-photo-description span {
+.slider-items__item-photo-description span {
     color: #fff;
     text-align: center;
     font-family: 'Gotham Pro';
@@ -606,14 +606,14 @@ button {
     line-height: 14px;
 }
 
-.birthday-wrapper_wave-items-item-name {
+.slider-items__item-name {
     min-height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.birthday-wrapper_wave-items-item-name span {
+.slider-items__item-name span {
     font-family: 'Rockwell';
     font-size: 1.3vw;
     line-height: 24px;
@@ -623,25 +623,25 @@ button {
 }
 
 
-.birthday-wrapper_wave-items .slick-center {
+.birthday__slider-items .slick-center {
     width: 307px !important;
     height: 423px !important;
 }
 
-.birthday-wrapper_wave-items .slick-active {
+.birthday__slider-items .slick-active {
     opacity: 0.7 !important;
 }
 
-.birthday-wrapper_wave-items .slick-current {
+.birthday__slider-items .slick-current {
     opacity: 1 !important;
 }
 
-.birthday-wrapper_wave-items .slick-list.draggable {
+.birthday__slider-items .slick-list.draggable {
     padding: 0px !important;
 
 }
 
-.birthday-wrapper_wave-items .slick-track {
+.birthday__slider-items .slick-track {
     height: 575px !important;
     display: flex !important;
     align-items: center !important;
@@ -692,7 +692,7 @@ button {
 }  */
 
 
-.birthday-wrapper_wave-items .slick-prev.slick-arrow {
+.birthday__slider-items .slick-prev.slick-arrow {
     position: absolute;
     z-index: 1;
     top: 130px;
@@ -701,7 +701,7 @@ button {
     opacity: 0;
 }
 
-.birthday-wrapper_wave-items .slick-next.slick-arrow {
+.birthday__slider-items .slick-next.slick-arrow {
     position: absolute;
     z-index: 1;
     top: 130px;
@@ -1039,17 +1039,17 @@ h4 {
     padding: 75px 70px 0px;
 }
 
-.goals-wrapper-content__kids {
+.goals__kids {
     display: flex;
     justify-content: space-between;
 }
 
-.goals-wrapper-content__kids-text {
+.goals__kids-text {
     width: 39%;
     padding: 90px 0 0 80px;
 }
 
-.goals-wrapper-content__kids-text p {
+.goals__kids-text p {
     font-family: 'Rockwell';
     font-size: 44px;
     line-height: 53px;
@@ -1058,14 +1058,14 @@ h4 {
     margin-bottom: 32px;
 }
 
-.goals-wrapper-content__kids-text span {
+.goals__kids-text span {
     font-family: 'Gotham Pro';
     font-size: 16px;
     line-height: 190%;
     color: #535353;
 }
 
-.goals-wrapper-content__kids-text-btn {
+.goals__kids-text-btn {
     width: 300px;
     height: 50px;
     background: #FFFFFF;
@@ -1081,21 +1081,21 @@ h4 {
     margin-top: 49px;
 }
 
-.goals-wrapper-content__parents {
+.goals__parents {
     display: flex;
     justify-content: space-between;
 }
 
-.goals-wrapper-content__parents-image {
+.goals__parents-image {
     width: 52%;
 }
 
-.goals-wrapper-content__parents-text {
+.goals__parents-text {
     width: 38%;
     padding: 115px 65px 0px 0px;
 }
 
-.goals-wrapper-content__parents-text p {
+.goals__parents-text p {
     font-family: 'Rockwell';
     font-size: 44px;
     line-height: 53px;
@@ -1104,32 +1104,32 @@ h4 {
     margin-bottom: 32px;
 }
 
-.goals-wrapper-content__parents-text span {
+.goals__parents-text span {
     font-family: 'Gotham Pro';
     font-size: 16px;
     line-height: 190%;
     color: #535353;
 }
 
-.goals-wrapper-content__reviews {
+.goals__reviews {
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
 }
 
-.goals-wrapper-content__reviews-text {
+.goals__reviews-text {
     width: 39%;
     padding: 90px 0 0 80px;
 }
 
-.goals-wrapper-content__reviews-image {
+.goals__reviews-image {
     background: url('../img/turttle.png') no-repeat;
     background-position: top right;
     display: flex;align-items: center;
     width: 50%;
 }
 
-.goals-wrapper-content__reviews-image img {
+.goals__reviews-image img {
     width: 100%;
 }
 
@@ -1159,7 +1159,7 @@ h4 {
     font-weight: bold;
 }
 
-.goals-wrapper-content__reviews-text-btn {
+.goals__reviews-text-btn {
     width: 300px;
     height: 50px;
     background: #FFFFFF;
@@ -1175,7 +1175,7 @@ h4 {
     margin-top: 49px;
 }
 
-.goals-wrapper-content__form {
+.goals__form {
     height: 437px;
     background: url('../img/map_bg.jpg') no-repeat;
     background-size: cover;
@@ -1184,13 +1184,13 @@ h4 {
     justify-content: flex-end;
 }
 
-.goals-wrapper-content__form-wrapper {
+.goals__form-wrapper {
     width: 38%;
     text-align: center;
     padding: 50px 0px 0px
 }
 
-.goals-wrapper-content__form-wrapper p {
+.goals__form-wrapper p {
     font-family: 'Rockwell';
     font-size: 27px;
     line-height: 32px;
@@ -1200,7 +1200,7 @@ h4 {
     margin-bottom: 10px;
 }
 
-.goals-wrapper-content__form-wrapper span {
+.goals__form-wrapper span {
     font-family: 'Gotham Pro';
     font-size: 15px;
     line-height: 160%;
@@ -1334,14 +1334,14 @@ form>button {
 }
 
 
-.contacts-wrapper-content__contacts-text span {
+.contacts__text span {
     font-family: 'Gotham Pro';
     font-size: 16px;
     line-height: 30px;
     color: #535353;
 }
 
-.contacts-wrapper-content__contacts-text p {
+.contacts__text p {
     font-family: 'Rockwell';
     font-size: 30px;
     letter-spacing: 0.06em;
@@ -1351,7 +1351,7 @@ form>button {
     margin-bottom: 20px;
 }
 
-.contacts-wrapper-content__contacts-text p.phone {
+.contacts__text p.phone {
     font-family: 'Rockwell';
     font-size: 30px;
     line-height: 36px;
@@ -1361,7 +1361,7 @@ form>button {
     margin-bottom: 20px;
 }
 
-.contacts-wrapper-content__btn {
+.menu__contacts-btn {
     width: 355px;
     height: 60px;
     background: #4075A5;
@@ -1377,17 +1377,17 @@ form>button {
     margin: 30px 0 35px;
 }
 
-.contacts-wrapper-content__contacts-icons {
+.contacts__text-icons {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contacts-wrapper-content__contacts-icons a {
+.contacts__text-icons a {
     margin: 0 30px;
 }
 
-.contacts-wrapper-content__contacts-icons_insta {
+.contacts__text-icons_insta {
     background: url('../img/contacts_lite_inst.png');
     background-size: cover;
     display: block;
@@ -1395,7 +1395,7 @@ form>button {
     height: 40px;
 }
 
-.contacts-wrapper-content__contacts-icons_insta:hover {
+.contacts__text-icons_insta:hover {
     background: url('../img/contacts_dark_inst.png');
     background-size: cover;
     display: block;
@@ -1403,7 +1403,7 @@ form>button {
     height: 40px;
 }
 
-.contacts-wrapper-content__contacts-icons_vk {
+.contacts__text-icons_vk {
     background: url('../img/contacts_lite_vk.png');
     background-size: cover;
     display: block;
@@ -1411,7 +1411,7 @@ form>button {
     height: 40px;
 }
 
-.contacts-wrapper-content__contacts-icons_vk:hover {
+.contacts__text-icons_vk:hover {
     background: url('../img/contacts_dark_vk.png');
     background-size: cover;
     display: block;
@@ -1419,7 +1419,7 @@ form>button {
     height: 40px;
 }
 
-.contacts-wrapper-content__contacts-icons_fb {
+.contacts__text-icons_fb {
     background: url('../img/contacts_lite_fb.png');
     background-size: cover;
     display: block;
@@ -1427,7 +1427,7 @@ form>button {
     height: 40px;
 }
 
-.contacts-wrapper-content__contacts-icons_fb:hover {
+.contacts__text-icons_fb:hover {
     background: url('../img/contacts_dark_fb.png');
     background-size: cover;
     display: block;
@@ -1454,11 +1454,11 @@ form>button {
     text-align: center;
 }
 
-.map-wrapper-content__description {
+.map__description {
     margin-bottom: 30px;
 }
 
-.map-wrapper-content__description button {
+.map__description button {
     font-family: 'Gotham Pro';
     font-size: 16px;
     line-height: 30px;
@@ -1471,13 +1471,13 @@ form>button {
     background-color: #fff;
 }
 
-.map-wrapper-content__map-img {
+.map__map-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.map-wrapper-content__map-img img {
+.map__map-img img {
     width: 100%;
 }
 
@@ -1495,7 +1495,7 @@ form>button {
         justify-content: center;
     }
 
-    .menu-wrapper-content__contacts>a:nth-child(3) {
+    .menu__contacts>a:nth-child(3) {
         display: none;
     }
 
@@ -1503,29 +1503,29 @@ form>button {
         display: none;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(2) {
+    .banner__button-wrapper > a:nth-child(2) {
         display: none;
     }
 
-    .menu-wrapper-content__links-tab_mobile {
+    .menu__links-tab_mobile {
         display: none;
     }
 
-    .banner-wrapper-content__heading_mobile {
+    .banner__heading-text_mobile {
         display: none;
     }
 
-    .birthday-wrapper-content__link-sets_mobile {
+    .birthday__button_mobile {
         display: none;
         justify-content: center;
         margin-top: 30px;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+    .slider-items__item-photo-description-mobile-heading {
         display: none;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+    .slider-items__item-photo-description-mobile-text {
         display: none;
     }
 
@@ -1533,18 +1533,18 @@ form>button {
         display: none;
     }
 
-    .goals-wrapper-content__form-mobile-heading {
+    .goals__form-mobile-heading {
         display: none;
     }
 
-    .contacts-wrapper-content__contacts-icons_mobile {
+    .contacts__text-icons_mobile {
         display: none;
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 20px;
     }
 
-    .mobile-banner-heading {
+    .banner__heading_mobile {
         display: none;
     }
 
@@ -1577,36 +1577,36 @@ form>button {
         justify-content: center;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(2) {
+    .banner__button-wrapper > a:nth-child(2) {
         display: none;
     }
 
-    .birthday-wrapper-content__link-sets_mobile {
+    .birthday__button_mobile {
         display: none;
         justify-content: center;
         margin-top: 30px;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+    .slider-items__item-photo-description-mobile-heading {
         display: none;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+    .slider-items__item-photo-description-mobile-text {
         display: none;
     }
 
-    .menu-wrapper-content__contacts>a:nth-child(3) {
+    .menu__contacts>a:nth-child(3) {
         display: none;
     }
 
-    .menu-wrapper-content__links-tab_mobile {
+    .menu__links-tab_mobile {
         display: none;
     }
 
     .sets-mobile {
         display: none;
     }
-    .mobile-banner-heading {
+    .banner__heading_mobile {
         display: none;
     }
 
@@ -1614,7 +1614,7 @@ form>button {
         display: none;
     }
 
-    .banner-wrapper-content__heading_mobile {
+    .banner__heading-text_mobile {
         display: none;
     }
 
@@ -1622,18 +1622,18 @@ form>button {
         display: none;
     }
 
-    .goals-wrapper-content__form-mobile-heading {
+    .goals__form-mobile-heading {
         display: none;
     }
 
-    .contacts-wrapper-content__contacts-icons_mobile {
+    .contacts__text-icons_mobile {
         display: none;
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 20px;
     }
 
-    .banner-wrapper-content__heading {
+    .banner__heading {
         display: block;
         width: 80%;
         margin: 0 auto;
@@ -1658,12 +1658,12 @@ form>button {
         margin: 60px 0px 22px;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 276px !important;
         height: 330px !important;
     }
 
-    .birthday-wrapper_wave-items-item-name span {
+    .slider-items__item-name span {
         font-family: 'Rockwell';
         font-size: 90%;
         line-height: 24px;
@@ -1672,16 +1672,16 @@ form>button {
         color: #3A6A96;
     }
 
-    .birthday-wrapper_wave-items .slick-center {
+    .birthday__slider-items .slick-center {
         width: 307px !important;
         height: 395px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-track {
+    .birthday__slider-items .slick-track {
         height: 550px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-prev.slick-arrow {
+    .birthday__slider-items .slick-prev.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 130px;
@@ -1690,7 +1690,7 @@ form>button {
         opacity: 0;
     }
     
-    .birthday-wrapper_wave-items .slick-next.slick-arrow {
+    .birthday__slider-items .slick-next.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 130px;
@@ -1744,42 +1744,42 @@ form>button {
         height: 2410px;
     }
 
-    .goals-wrapper-content__reviews-text {
+    .goals__reviews-text {
         width: 50%;
         padding: 90px 0 0 30px;
     }
 
-    .goals-wrapper-content__kids-text {
+    .goals__kids-text {
         width: 50%;
         padding: 90px 0 0 30px;
     }
 
-    .goals-wrapper-content__kids-image {
+    .goals__kids-image {
         width: 50%;
     }
 
-    .goals-wrapper-content__kids-image img {
+    .goals__kids-image img {
         width: 100%;
     }
 
-    .goals-wrapper-content__parents-image {
+    .goals__parents-image {
         width: 50%;
     }
 
-    .goals-wrapper-content__parents-image img {
+    .goals__parents-image img {
         width: 100%;
     }
 
-    .goals-wrapper-content__parents-text {
+    .goals__parents-text {
         width: 50%;
         padding: 115px 0px 0px 70px;
     }
 
-    .goals-wrapper-content__reviews-image {
+    .goals__reviews-image {
         width: 50%;
     }
 
-    .goals-wrapper-content__reviews-image img {
+    .goals__reviews-image img {
         width: 100%;
     }
     .reviews-text__text {
@@ -1843,11 +1843,11 @@ form>button {
         height: 545px;
     }
 
-    .banner-wrapper-content__heading h1 {
+    .banner__heading h1 {
         font-size: 45px;
     }
 
-    .banner-wrapper-content__button-wrapper {
+    .banner__button-wrapper {
         width: 40%;
     }
 
@@ -1868,25 +1868,25 @@ form>button {
         margin: 60px 0px 22px;
     }
 
-    .birthday-wrapper_wave {
+    .birthday__slider {
         height: 535px;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 276px !important;
         height: 285px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-center {
+    .birthday__slider-items .slick-center {
         width: 307px !important;
         height: 320px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-track {
+    .birthday__slider-items .slick-track {
         height: 420px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-prev.slick-arrow {
+    .birthday__slider-items .slick-prev.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 130px;
@@ -1895,7 +1895,7 @@ form>button {
         opacity: 0;
     }
     
-    .birthday-wrapper_wave-items .slick-next.slick-arrow {
+    .birthday__slider-items .slick-next.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 130px;
@@ -1925,42 +1925,42 @@ form>button {
         height: 2210px;
     }
 
-    .goals-wrapper-content__reviews-text {
+    .goals__reviews-text {
         width: 50%;
         padding: 60px 0 0 30px;
     }
 
-    .goals-wrapper-content__kids-text {
+    .goals__kids-text {
         width: 50%;
         padding: 30px 0 0 20px;
     }
 
-    .goals-wrapper-content__kids-image {
+    .goals__kids-image {
         width: 50%;
     }
 
-    .goals-wrapper-content__kids-image img {
+    .goals__kids-image img {
         width: 100%;
     }
 
-    .goals-wrapper-content__parents-image {
+    .goals__parents-image {
         width: 50%;
     }
 
-    .goals-wrapper-content__parents-image img {
+    .goals__parents-image img {
         width: 100%;
     }
 
-    .goals-wrapper-content__parents-text {
+    .goals__parents-text {
         width: 50%;
         padding: 70px 0px 0px 70px;
     }
 
-    .goals-wrapper-content__reviews-image {
+    .goals__reviews-image {
         width: 50%;
     }
 
-    .goals-wrapper-content__reviews-image img {
+    .goals__reviews-image img {
         width: 100%;
     }
 
@@ -1981,11 +1981,11 @@ form>button {
         font-weight: bold;
     }
 
-    .goals-wrapper-content__form {
+    .goals__form {
         background-position: right;
     }
 
-    .goals-wrapper-content__form-wrapper {
+    .goals__form-wrapper {
         width: 50%;
     }
 
@@ -2010,7 +2010,7 @@ form>button {
         height: 485px;
     }
 
-    .banner-wrapper-content__heading_text {
+    .banner__heading-text {
         font-family: 'Rockwell';
         font-size: 16px;
         padding-top: 25px;
@@ -2050,25 +2050,25 @@ form>button {
         width: 90%;
     }
 
-    .birthday-wrapper_wave {
+    .birthday__slider {
         height: 495px;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 276px !important;
         height: 240px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-center {
+    .birthday__slider-items .slick-center {
         width: 307px !important;
         height: 280px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-track {
+    .birthday__slider-items .slick-track {
         height: 420px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-prev.slick-arrow {
+    .birthday__slider-items .slick-prev.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 130px;
@@ -2077,7 +2077,7 @@ form>button {
         opacity: 0;
     }
     
-    .birthday-wrapper_wave-items .slick-next.slick-arrow {
+    .birthday__slider-items .slick-next.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 130px;
@@ -2087,15 +2087,15 @@ form>button {
         opacity: 0;
     } 
 
-    .birthday-wrapper_wave-items-item-name span {
+    .slider-items__item-name span {
         font-size: 1vw;
     }
 
-    .slick-current .birthday-wrapper_wave-items-item-photo-description span {
+    .slick-current .slider-items__item-photo-description span {
         font-size: 0.9vw;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description span {
+    .slider-items__item-photo-description span {
         font-size: 0.8vw;
     }
 
@@ -2134,22 +2134,22 @@ form>button {
         height: 2010px;
     }
 
-    .goals-wrapper-content__kids-text p {
+    .goals__kids-text p {
         font-size: 38px;
         line-height: 53px;
     }
 
-    .goals-wrapper-content__kids-text span {
+    .goals__kids-text span {
         font-size: 14px;
         line-height: 150%;
     }
 
-    .goals-wrapper-content__parents-text p {
+    .goals__parents-text p {
         font-size: 38px;
         line-height: 53px;
     }
     
-    .goals-wrapper-content__parents-text span {
+    .goals__parents-text span {
         font-size: 14px;
         line-height: 150%;
     }
@@ -2159,7 +2159,7 @@ form>button {
         line-height: 53px;
     }
     
-    .goals-wrapper-content__reviews-text span {
+    .goals__reviews-text span {
         font-size: 14px;
         line-height: 150%;
     }
@@ -2181,7 +2181,7 @@ form>button {
         font-weight: bold;
     }
 
-    .goals-wrapper-content__form-wrapper {
+    .goals__form-wrapper {
         width: 60%;
     }
 }
@@ -2207,7 +2207,7 @@ form>button {
         font-weight: bold;
     }
 
-    .menu-wrapper-content__contacts-icons_insta {
+    .menu__contacts-icon_insta {
         background: url('../img/menu_btn_lite_inst.png');
         background-size: cover;
         display: block;
@@ -2215,11 +2215,11 @@ form>button {
         height: 30px;
     }
     
-    .menu-wrapper-content__contacts-icons_insta:hover {
+    .menu__contacts-icon_insta:hover {
         background: url('../img/menu_btn_dark_inst.png');
     }
     
-    .menu-wrapper-content__contacts-icons_vk {
+    .menu__contacts-icon_vk {
         background: url('../img/menu_btn_lite_vk.png');
         background-size: cover;
         display: block;
@@ -2227,11 +2227,11 @@ form>button {
         height: 30px;
     }
     
-    .menu-wrapper-content__contacts-icons_vk:hover {
+    .menu__contacts-icon_vk:hover {
         background: url('../img/menu_btn_dark_vk.png');
     }
     
-    .menu-wrapper-content__contacts-icons_fb {
+    .menu__contacts-icon_fb {
         background: url('../img/menu_btn_lite_fb.png');
         background-size: cover;
         display: block;
@@ -2239,7 +2239,7 @@ form>button {
         height: 30px;
     }
     
-    .menu-wrapper-content__contacts-icons_fb:hover {
+    .menu__contacts-icon_fb:hover {
         background: url('../img/menu_btn_dark_fb.png');
     }
 
@@ -2264,81 +2264,81 @@ form>button {
         padding: 60px 100px 40px;
     }
 
-    .menu-wrapper-content__links {
+    .menu__links {
         display: block;
         justify-content: space-between;
         text-align: center;
         margin-top: 30px;
     }
 
-    .menu-wrapper-content__links-tab {
+    .menu__links-tab {
         display: none;
     }
 
-    .menu-wrapper-content__links-tab li:hover {
+    .menu__links-tab li:hover {
         background: none;
         padding-right: 0px;
         margin: 0px 0px 25px 0px;
     }
 
-    .menu-wrapper-content__links-tab {
+    .menu__links-tab {
         width: 100%;
     }
 
-    .menu-wrapper-content__links-tab_mobile {
+    .menu__links-tab_mobile {
         width: 100%;
         display: block;
         
     }
 
-    .menu-wrapper-content__links-tab_mobile li {
+    .menu__links-tab_mobile li {
         list-style-type: none;
         margin: 0px 0px 25px 0px;
         padding: 7px 0px 0px 0px;
     }
 
-    .menu-wrapper-content__links-tab li {
+    .menu__links-tab li {
         list-style-type: none;
         margin: 0px 0px 25px 0px;
         padding: 7px 0px 0px 0px;
     }
     
-    .menu-wrapper-content__links-tab_mobile li:hover {
+    .menu__links-tab_mobile li:hover {
         background: none;
         padding-right: 0px;
         margin: 0px 0px 25px 0px;
     }
     
-    .menu-wrapper-content__links-tab_mobile a {
+    .menu__links-tab_mobile a {
         font-family: 'Rockwell';
         font-size: 30px;
         letter-spacing: 0.06em;
         color: #535353;
     }
     
-    .menu-wrapper-content__links-tab_mobile a:hover {
+    .menu__links-tab_mobile a:hover {
         color: #3A6A96;
         font-weight: bold;
     }
 
-    .menu-wrapper-content__links-tab_mobile li:hover {
+    .menu__links-tab_mobile li:hover {
         background: none;
         padding-right: 0px;
         margin: 0px 0px 25px 0px;
     }
 
-    .menu-wrapper-content__contacts {
+    .menu__contacts {
         display: block;
         justify-content: space-between;
         padding: 0px 5px;
         text-align: center;
     }
     
-    .menu-wrapper-content__contacts-text {
+    .menu__contacts-text {
         width: 100%;
     }
 
-    .menu-wrapper-content__contacts-icons {
+    .menu__contacts-icons {
         display: flex;
         width: 100%;
         align-items: center;
@@ -2353,15 +2353,15 @@ form>button {
         height: 375px;
     }
 
-    .banner-wrapper-content__heading h1 {
+    .banner__heading h1 {
         font-size: 40px;
     }
 
-    .banner-wrapper-content__button-wrapper {
+    .banner__button-wrapper {
         width: 50%;
     }
 
-    .banner-wrapper-content__heading {
+    .banner__heading {
         display: block;
         width: 100%;
         height: 55%;
@@ -2370,7 +2370,7 @@ form>button {
         padding-top: 30px;
     }
 
-    .banner-wrapper-content__heading_text {
+    .banner__heading-text {
         font-family: 'Rockwell';
         font-size: 14px;
         padding-top: 10px;
@@ -2391,25 +2391,25 @@ form>button {
         color: #535353;
     }
 
-    .birthday-wrapper_wave {
+    .birthday__slider {
         height: 370px;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 276px !important;
         height: 215px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-center {
+    .birthday__slider-items .slick-center {
         width: 307px !important;
         height: 245px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-track {
+    .birthday__slider-items .slick-track {
         height: 330px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-prev.slick-arrow {
+    .birthday__slider-items .slick-prev.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 100px;
@@ -2418,7 +2418,7 @@ form>button {
         opacity: 0;
     }
     
-    .birthday-wrapper_wave-items .slick-next.slick-arrow {
+    .birthday__slider-items .slick-next.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 100px;
@@ -2581,17 +2581,17 @@ form>button {
         height: 1910px;
     }
 
-    .goals-wrapper-content__kids-text p {
+    .goals__kids-text p {
         font-size: 34px;
         line-height: 43px;
     }
 
-    .goals-wrapper-content__kids-text span {
+    .goals__kids-text span {
         font-size: 13px;
         line-height: 140%;
     }
 
-    .goals-wrapper-content__kids-text-btn {
+    .goals__kids-text-btn {
         width: 250px;
         height: 40px;
         background: #FFFFFF;
@@ -2607,12 +2607,12 @@ form>button {
         margin-top: 30px;
     }
 
-    .goals-wrapper-content__parents-text p {
+    .goals__parents-text p {
         font-size: 34px;
         line-height: 43px;
     }
     
-    .goals-wrapper-content__parents-text span {
+    .goals__parents-text span {
         font-size: 13px;
         line-height: 140%;
     }
@@ -2622,7 +2622,7 @@ form>button {
         line-height: 43px;
     }
     
-    .goals-wrapper-content__reviews-text span {
+    .goals__reviews-text span {
         font-size: 13px;
         line-height: 140%;
     }
@@ -2644,7 +2644,7 @@ form>button {
         font-weight: bold;
     }
 
-    .goals-wrapper-content__reviews-text-btn {
+    .goals__reviews-text-btn {
         width: 250px;
         height: 40px;
         background: #FFFFFF;
@@ -2660,14 +2660,14 @@ form>button {
         margin-top: 15px;
     }
 
-    .goals-wrapper-content__form-wrapper {
+    .goals__form-wrapper {
         width: 65%;
     }
 }
 
 
 @media screen and (max-width: 821px) {
-    .banner-wrapper-content__heading_text {
+    .banner__heading-text {
         display: none !important;
     }
 
@@ -2688,21 +2688,21 @@ form>button {
         padding-top: 20px;
     }
 
-    .menu_button_mobile {
+    .menu-button_mobile {
         background-color: transparent;
         z-index: 100;
     }
 
-    .menu_button_mobile img {
+    .menu-button_mobile img {
         width: 60px;
         height: 60px;
     }
 
-    .menu-wrapper-content__contacts>a:nth-child(3) {
+    .menu__contacts>a:nth-child(3) {
         display: block;
     }
 
-    .contacts-wrapper-content__btn_menu {
+    .menu__contacts-btn_menu {
         width: 90%;
         height: 80px;
         background: #FCC617;
@@ -2740,7 +2740,7 @@ form>button {
         background-position: center;
     }
 
-    .mobile-banner-heading {
+    .banner__heading_mobile {
         display: block;
         font-family: 'Rockwell';
         font-size: 70px;
@@ -2751,7 +2751,7 @@ form>button {
         margin: 100px 0px;
     }
 
-    .banner-wrapper-content__heading {
+    .banner__heading {
         display: block;
         width: 80%;
         height: 40%;
@@ -2763,7 +2763,7 @@ form>button {
         padding: 40px 40px 0px;
     }
 
-    .banner-wrapper-content__heading h1 {
+    .banner__heading h1 {
         font-family: 'Rockwell';
         font-size: 35px;
         line-height: 110%;
@@ -2773,7 +2773,7 @@ form>button {
         margin-bottom: 50px;
     }
 
-    .banner-wrapper-content__heading p {
+    .banner__heading p {
         font-family: 'Gotham Pro';
         font-size: 20px;
         line-height: 150%;
@@ -2782,11 +2782,11 @@ form>button {
         display: block;
     }
 
-    .banner-wrapper-content__button {
+    .banner__button {
         height: 15%;
     }
 
-    .banner-wrapper-content__button-wrapper button {
+    .banner__button-wrapper button {
         width: 500px;
         height: 80px;
         background: #FCC617;
@@ -2804,14 +2804,14 @@ form>button {
         justify-content: center;
     }
     
-    .banner-wrapper-content__button-wrapper img {
+    .banner__button-wrapper img {
         display: none;
         position: absolute;
         top: 11px;
         left: 310px;
     }
 
-    .banner-wrapper-contacts {
+    .banner__contacts {
         max-width: 100%;
         display: none;
         margin: 0 auto;
@@ -2865,17 +2865,17 @@ form>button {
         color: #FFFFFF;
     }
 
-    .birthday-wrapper-content__link-sets {
+    .birthday__button {
         display: none;
     }
 
-    .birthday-wrapper-content__link-sets_mobile {
+    .birthday__button_mobile {
         display: flex;
         justify-content: center;
         margin-top: 30px;
     }
 
-    .birthday-wrapper-content__link-sets-btn {
+    .birthday__button-btn {
         width: 300px;
         height: 50px;
         background: #ffffff;
@@ -2891,33 +2891,33 @@ form>button {
         color: #527fae;
     }
 
-    .birthday-wrapper_wave {
+    .birthday__slider {
         height: 750px;
         position: absolute;
         top: 400px;
     }
 
-    .birthday-wrapper_wave .slick-list {
+    .birthday__slider .slick-list {
         display: flex !important;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 520px !important;
         height: 710px !important;
         margin: 0px 145px;
     }
 
-    .birthday-wrapper_wave-items .slick-center {
+    .birthday__slider-items .slick-center {
         width: 520px !important;
         height: 710px !important;
     }
 
-    .birthday-wrapper_wave-items .slick-track {
+    .birthday__slider-items .slick-track {
         height: 750px !important;
         justify-content: space-between;
     }
 
-    .birthday-wrapper_wave-items {
+    .birthday__slider-items {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -2926,7 +2926,7 @@ form>button {
         overflow: hidden;
     }
 
-    .birthday-wrapper_wave-items .slick-prev.slick-arrow {
+    .birthday__slider-items .slick-prev.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 100px;
@@ -2935,7 +2935,7 @@ form>button {
         opacity: 0;
     }
     
-    .birthday-wrapper_wave-items .slick-next.slick-arrow {
+    .birthday__slider-items .slick-next.slick-arrow {
         position: absolute;
         z-index: 1;
         top: 100px;
@@ -2945,7 +2945,7 @@ form>button {
         opacity: 0;
     }
 
-    .birthday-wrapper_wave-items-item-photo {
+    .slider-items__item-photo {
         display: flex;
         align-items: flex-end;
         height: 40%;
@@ -2954,7 +2954,7 @@ form>button {
         background-size: cover;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description {
+    .slider-items__item-photo-description {
         height: auto;
         width: 100%;
         height: 93%;
@@ -2964,13 +2964,13 @@ form>button {
         display: block;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description span {
+    .slider-items__item-photo-description span {
         color: #fff;
         text-align: center;
         display: none;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+    .slider-items__item-photo-description-mobile-heading {
         font-family: 'Rockwell';
         font-size: 3vw;
         line-height: 100%;
@@ -2981,7 +2981,7 @@ form>button {
         margin: 15px 0 35px;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+    .slider-items__item-photo-description-mobile-text {
         font-family: 'Gotham Pro';
         font-size: 2.5vw;
         line-height: 140%;
@@ -2990,7 +2990,7 @@ form>button {
         color: #2F6898;
     }
 
-    .birthday-wrapper_wave-items-item-name {
+    .slider-items__item-name {
         min-height: 60%;
         display: flex;
         align-items: center;
@@ -3083,15 +3083,15 @@ form>button {
         background-position: center;
     }
 
-    .birthday-wrapper_wave-items-item-name span {
+    .slider-items__item-name span {
         display: none;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+    .slider-items__item-photo-description-mobile-heading {
         display: block;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+    .slider-items__item-photo-description-mobile-text {
         display: block;
     }
 
@@ -3325,27 +3325,27 @@ form>button {
         padding: 0px 45px 0px;
     }
 
-    .goals-wrapper-content__kids {
+    .goals__kids {
         display: none;
         justify-content: space-between;
     }
 
-    .goals-wrapper-content__parents {
+    .goals__parents {
         display: none;
         justify-content: space-between;
     }
 
-    .goals-wrapper-content__reviews {
+    .goals__reviews {
         display: none;
         justify-content: space-between;
         margin-bottom: 100px;
     }
 
-    .goals-wrapper-content__form-wrapper {
+    .goals__form-wrapper {
         width: 100%;
     }
 
-    .goals-wrapper-content__form-wrapper p {
+    .goals__form-wrapper p {
         font-family: 'Rockwell';
         font-size: 27px;
         line-height: 32px;
@@ -3364,11 +3364,11 @@ form>button {
         width: 70%;
     }
 
-    .goals-wrapper-content__form-mobile-heading {
+    .goals__form-mobile-heading {
         display: block;
     }
 
-    .goals-wrapper-content__form-mobile-heading {
+    .goals__form-mobile-heading {
         font-family: 'Rockwell';
         font-size: 35px;
         line-height: 110%;
@@ -3405,18 +3405,18 @@ form>button {
         background-position: center;
     }
 
-    .contacts-wrapper-content__contacts-icons {
+    .contacts__text-icons {
         display: none;
     }
 
-    .contacts-wrapper-content__contacts-icons_mobile {
+    .contacts__text-icons_mobile {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         margin-bottom: 20px;
     }
 
-    .contacts-wrapper-content__contacts-icons_insta {
+    .contacts__text-icons_insta {
         background: url('../img/inst_lite_mob_footer.png');
         background-size: cover;
         display: block;
@@ -3424,7 +3424,7 @@ form>button {
         height: 53px;
     }
     
-    .contacts-wrapper-content__contacts-icons_insta:hover {
+    .contacts__text-icons_insta:hover {
         background: url('../img/inst_dark_mob_footer.png');
         background-size: cover;
         display: block;
@@ -3432,7 +3432,7 @@ form>button {
         height: 53px;
     }
     
-    .contacts-wrapper-content__contacts-icons_vk {
+    .contacts__text-icons_vk {
         background: url('../img/vk_lite_mob_footer.png');
         background-size: cover;
         display: block;
@@ -3440,7 +3440,7 @@ form>button {
         height: 53px;
     }
     
-    .contacts-wrapper-content__contacts-icons_vk:hover {
+    .contacts__text-icons_vk:hover {
         background: url('../img/vk_dark_mob_footer.png');
         background-size: cover;
         display: block;
@@ -3448,7 +3448,7 @@ form>button {
         height: 53px;
     }
     
-    .contacts-wrapper-content__contacts-icons_fb {
+    .contacts__text-icons_fb {
         background: url('../img/fb_lite_mob_footer.png');
         background-size: cover;
         display: block;
@@ -3456,7 +3456,7 @@ form>button {
         height: 53px;
     }
     
-    .contacts-wrapper-content__contacts-icons_fb:hover {
+    .contacts__text-icons_fb:hover {
         background: url('../img/fb_dark_mob_footer.png');
         background-size: cover;
         display: block;
@@ -3464,7 +3464,7 @@ form>button {
         height: 53px;
     }
 
-    .contacts-wrapper-content__btn {
+    .menu__contacts-btn {
         width: 529px;
         height: 80px;
         background: #FCC617;
@@ -3493,7 +3493,7 @@ form>button {
         padding: 60px 40px 40px;
     }
 
-    .contacts-wrapper-content__btn {
+    .menu__contacts-btn {
         width: 90%;
         height: 80px;
         background: #FCC617;
@@ -3512,7 +3512,7 @@ form>button {
 
     /* BANNER */
 
-    .banner-wrapper-content__heading {
+    .banner__heading {
         display: block;
         width: 70%;
         height: 40%;
@@ -3524,16 +3524,16 @@ form>button {
         padding: 40px 40px 0px;
     }
 
-    .banner-wrapper-content__button-wrapper {
+    .banner__button-wrapper {
         width: 80%;
         display: block;
     }
 
-    .banner-wrapper-content__button-wrapper a {
+    .banner__button-wrapper a {
         width: 100%;
     }
 
-    .banner-wrapper-content__button-wrapper button {
+    .banner__button-wrapper button {
         width: 100%;
         height: 80px;
         background: #FCC617;
@@ -3558,17 +3558,17 @@ form>button {
         padding: 0px 6vw;
     }
 
-    .birthday-wrapper-content__link-sets_mobile {
+    .birthday__button_mobile {
         display: flex;
         justify-content: center;
         margin-top: 30px;
     }
 
-    .birthday-wrapper_wave {
+    .birthday__slider {
         margin-top: 30px;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 520px !important;
         height: 710px !important;
         margin: 0px 110px;
@@ -3669,7 +3669,7 @@ form>button {
         padding: 260px 40px 40px;
     }
 
-    .contacts-wrapper-content__btn {
+    .menu__contacts-btn {
         width: 90%;
         height: 80px;
         background: #FCC617;
@@ -3688,7 +3688,7 @@ form>button {
 
     /* BANNER */
 
-    .banner-wrapper-content__heading {
+    .banner__heading {
         display: block;
         width: 70%;
         height: 40%;
@@ -3700,24 +3700,24 @@ form>button {
         padding: 40px 40px 0px;
     }
 
-    .banner-wrapper-content__button-wrapper {
+    .banner__button-wrapper {
         width: 80%;
         display: block;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(1) {
+    .banner__button-wrapper > a:nth-child(1) {
         display: none;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(2) {
+    .banner__button-wrapper > a:nth-child(2) {
         display: block;
     }
 
-    .banner-wrapper-content__button-wrapper a {
+    .banner__button-wrapper a {
         width: 100%;
     }
 
-    .banner-wrapper-content__button-wrapper button {
+    .banner__button-wrapper button {
         width: 100%;
         height: 80px;
         background: #FCC617;
@@ -3742,13 +3742,13 @@ form>button {
         padding: 0px 6vw;
     }
 
-    .birthday-wrapper-content__link-sets_mobile {
+    .birthday__button_mobile {
         display: flex;
         justify-content: center;
         margin-top: 30px;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 520px !important;
         height: 710px !important;
         margin: 0px 80px;
@@ -3833,7 +3833,7 @@ form>button {
         padding: 260px 40px 40px;
     }
 
-    .contacts-wrapper-content__btn {
+    .menu__contacts-btn {
         width: 90%;
         height: 80px;
         background: #FCC617;
@@ -3852,7 +3852,7 @@ form>button {
 
     /* BANNER */
 
-    .mobile-banner-heading {
+    .banner__heading_mobile {
         display: block;
         font-family: 'Rockwell';
         font-size: 55px;
@@ -3863,7 +3863,7 @@ form>button {
         margin: 100px 0px;
     }
 
-    .banner-wrapper-content__heading h1 {
+    .banner__heading h1 {
         font-family: 'Rockwell';
         font-size: 32px;
         line-height: 110%;
@@ -3873,7 +3873,7 @@ form>button {
         margin-bottom: 50px;
     }
 
-    .banner-wrapper-content__heading {
+    .banner__heading {
         display: block;
         width: 70%;
         height: 40%;
@@ -3885,24 +3885,24 @@ form>button {
         padding: 40px 40px 0px;
     }
 
-    .banner-wrapper-content__button-wrapper {
+    .banner__button-wrapper {
         width: 80%;
         display: block;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(1) {
+    .banner__button-wrapper > a:nth-child(1) {
         display: none;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(2) {
+    .banner__button-wrapper > a:nth-child(2) {
         display: block;
     }
 
-    .banner-wrapper-content__button-wrapper a {
+    .banner__button-wrapper a {
         width: 100%;
     }
 
-    .banner-wrapper-content__button-wrapper button {
+    .banner__button-wrapper button {
         width: 100%;
         height: 80px;
         background: #FCC617;
@@ -3945,24 +3945,24 @@ form>button {
         padding: 0px 6vw;
     }
 
-    .birthday-wrapper-content__link-sets_mobile {
+    .birthday__button_mobile {
         display: flex;
         justify-content: center;
         margin-top: 20px;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 520px !important;
         height: 710px !important;
         margin: 0px 55px;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+    .slider-items__item-photo-description-mobile-heading {
         font-family: 'Rockwell';
         font-size: 4vw;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+    .slider-items__item-photo-description-mobile-text {
         font-family: 'Gotham Pro';
         font-size: 3.2vw;
     }
@@ -4031,7 +4031,7 @@ form>button {
 
     /* FORM */
 
-    .goals-wrapper-content__form-mobile-heading {
+    .goals__form-mobile-heading {
         font-family: 'Rockwell';
         font-size: 28px;
         line-height: 110%;
@@ -4042,7 +4042,7 @@ form>button {
         margin-bottom: 30px;
     }
 
-    .goals-wrapper-content__form-wrapper span {
+    .goals__form-wrapper span {
         font-family: 'Gotham Pro';
         font-size: 13px;
         line-height: 160%;
@@ -4089,7 +4089,7 @@ form>button {
 
     /* CONTACTS */
 
-    .contacts-wrapper-content__contacts-text p {
+    .contacts__text p {
         font-family: 'Rockwell';
         font-size: 28px;
         letter-spacing: 0.06em;
@@ -4099,7 +4099,7 @@ form>button {
         margin-bottom: 20px;
     }
 
-    .contacts-wrapper-content__contacts-text p.phone {
+    .contacts__text p.phone {
         font-family: 'Rockwell';
         font-size: 28px;
         line-height: 36px;
@@ -4126,7 +4126,7 @@ form>button {
         padding: 260px 40px 40px;
     }
 
-    .contacts-wrapper-content__btn {
+    .menu__contacts-btn {
         width: 90%;
         height: 80px;
         background: #FCC617;
@@ -4145,7 +4145,7 @@ form>button {
 
     /* BANNER */
 
-    .banner-wrapper-content__heading h1 {
+    .banner__heading h1 {
         font-family: 'Rockwell';
         font-size: 26px;
         line-height: 110%;
@@ -4155,7 +4155,7 @@ form>button {
         margin-bottom: 50px;
     }
 
-    .banner-wrapper-content__heading p {
+    .banner__heading p {
         font-family: 'Gotham Pro';
         font-size: 16px;
         line-height: 150%;
@@ -4164,7 +4164,7 @@ form>button {
         display: block;
     }
 
-    .banner-wrapper-content__heading {
+    .banner__heading {
         display: block;
         width: 70%;
         height: 40%;
@@ -4176,24 +4176,24 @@ form>button {
         padding: 40px 40px 0px;
     }
 
-    .banner-wrapper-content__button-wrapper {
+    .banner__button-wrapper {
         width: 80%;
         display: block;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(1) {
+    .banner__button-wrapper > a:nth-child(1) {
         display: none;
     }
 
-    .banner-wrapper-content__button-wrapper > a:nth-child(2) {
+    .banner__button-wrapper > a:nth-child(2) {
         display: block;
     }
 
-    .banner-wrapper-content__button-wrapper a {
+    .banner__button-wrapper a {
         width: 100%;
     }
 
-    .banner-wrapper-content__button-wrapper button {
+    .banner__button-wrapper button {
         width: 100%;
         height: 80px;
         background: #FCC617;
@@ -4236,13 +4236,13 @@ form>button {
         padding: 0px 6vw;
     }
 
-    .birthday-wrapper-content__link-sets_mobile {
+    .birthday__button_mobile {
         display: flex;
         justify-content: center;
         margin-top: 20px;
     }
 
-    .birthday-wrapper-content__link-sets-btn {
+    .birthday__button-btn {
         width: 270px;
         height: 40px;
         background: #ffffff;
@@ -4258,18 +4258,18 @@ form>button {
         color: #527fae;
     }
 
-    .birthday-wrapper_wave-items-item {
+    .slider-items__item {
         width: 520px !important;
         height: 710px !important;
         margin: 0px 35px;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-heading {
+    .slider-items__item-photo-description-mobile-heading {
         font-family: 'Rockwell';
         font-size: 5vw;
     }
 
-    .birthday-wrapper_wave-items-item-photo-description-mobile-text {
+    .slider-items__item-photo-description-mobile-text {
         font-family: 'Gotham Pro';
         font-size: 3.6vw;
     }
@@ -4386,7 +4386,7 @@ form>button {
 
     /* CONTACTS */
 
-    .contacts-wrapper-content__contacts-text p {
+    .contacts__text p {
         font-family: 'Rockwell';
         font-size: 28px;
         letter-spacing: 0.06em;
@@ -4396,7 +4396,7 @@ form>button {
         margin-bottom: 20px;
     }
 
-    .contacts-wrapper-content__contacts-text p.phone {
+    .contacts__text p.phone {
         font-family: 'Rockwell';
         font-size: 28px;
         line-height: 36px;
@@ -4406,7 +4406,7 @@ form>button {
         margin-bottom: 20px;
     }
 
-    .map-wrapper-content__description button {
+    .map__description button {
         font-family: 'Gotham Pro';
         font-size: 13px;
         line-height: 20px;
