@@ -715,7 +715,7 @@ button {
 
 /* BEST */
 
-.best {
+/* .best {
     width: 100%;
     background-color: #fff;
     margin: 100px 0px 110px;
@@ -825,7 +825,7 @@ button {
 .nxt_b {
     right: 10px;
     background: url('../img/images/nxt.png') no-repeat;
-}
+} */
 
 
 
@@ -864,14 +864,15 @@ h4 {
     margin-bottom: 15px;
 }
 
-.sets__item-wrapper_four {
+.sets__item-wrapper_one {
     display: block;
     height: 40%;
 }
 
-.sets__item-wrapper_one,
+
 .sets__item-wrapper_two, 
 .sets__item-wrapper_three,
+.sets__item-wrapper_four,
 .sets__item-wrapper_five,
 .sets__item-wrapper_six,
 .sets__item-wrapper_seven {
@@ -987,11 +988,11 @@ h4 {
     height: 90%;
 }
 
-.chests__item_center .chests__item-img-closed {
+.chests__item_left .chests__item-img-closed {
     display: none;
 }
 
-.chests__item_center .chests__item-img-opened {
+.chests__item_left .chests__item-img-opened {
     display: block;
 }
 
