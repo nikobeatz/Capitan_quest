@@ -35,11 +35,12 @@ mobOpen.addEventListener("click", function () {
 
 
 
-//start card carousel 
+
 
 
 $(document).ready(function(){
-  
+
+  //start card carousel 
   $('.birthday__slider-items').slick({
     centerMode: true,
     centerPadding: '0px',
@@ -70,56 +71,79 @@ $(document).ready(function(){
       }
     ]
   });
-  
-      // // whatever you want
-      // $('.slick-track .slick-active:first')
-      // .css('opacity', '0.5');
+  //end card carousel
+
+  // mobile scroll chests
+  $('.sets-mobile__items').slick({
+    centerMode: true,
+    centerPadding: '0px',
+    slidesToShow: 3,
+    appendDots: $('.sets-mobile__heading'),
+    slidesToScroll: 1,
+    arrows: true,
+    focusOnSelect: false,
+    infinite: true,
+    responsive: [{
+        breakpoint: 821,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          dots: true,
+          centerPadding: '40px',
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 620,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          dots: true,
+          centerPadding: '40px',
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+  // end mobile scroll chests
+
+
+  //gallery plugin
+  $('.gallery-wrapper-content').flipLightBox({ lightbox_flip_speed: 500, lightbox_border_color: '#4075A5' });
+  //dallery plugin
+
+
+  //scroll chests
+  const move = (from, to) => {
+    let descriptionItems = document.getElementsByClassName('sets__item-wrapper');
+    let openedChests = document.getElementsByClassName('chests__item-img-opened');
+    let closedChests = document.getElementsByClassName('chests__item-img-closed');
+
+    for (let i = 0; i < 7; i++) {
+        i === to ? descriptionItems[i].style.display = 'block' : descriptionItems[i].style.display = 'none';
+    }
+    
+    openedChests[from].style.display = 'none'
+    closedChests[from].style.display = 'block'
+    openedChests[to].style.display = 'block'
+    closedChests[to].style.display = 'none'
+  }
+
+  document.querySelector('.sets-wrapper-content').addEventListener('click', (event) => {
       
-      // $('.slick-track .slick-active:last')
-      // .css('opacity', '0.5');
-   
+      if(event.target.classList.contains('item-wrapper__setname-btn')) {
+          let [ from, to ] = event.target.getAttribute('direction').split('-')
+          move(+from, +to)
+      }
+  })
+  //scroll chests
+
 });
 
-// $(document).ready(function (){
-//   $(".slick-prev, .slick-next").on('click', function() {
-//     // whatever you want
-//     $('.slick-track .slick-active:first')
-//     .css('opacity', '0.5');
-    
-//     $('.slick-track .slick-active:last')
-//     .css('opacity', '0.5');
-//   });
-// });
 
 
-//end card carousel
 
 
-//start best slider
-
-// $(document).ready(function(){
-//   $('.best-wrapper-content__slider-img').slick({
-//         responsive: [{
-//           breakpoint: 740,
-//           settings: {
-//             arrows: false,
-//             slidesToShow: 1,
-//           }
-//         },
-//         {
-//           breakpoint: 620,
-//           settings: {
-//             arrows: false,
-
-//             slidesToShow: 1,
-//           }
-//         }
-//       ]
-//   });
-// });
-	
-
-//end best slider
 
 
 // map open
@@ -175,26 +199,10 @@ $("html, body").on('click', '[href*="#"]', function(e){
 
 
 
-function move(to, from) {
-    // console.log(index);
-    // console.log(direction);
 
-    let descriptionItems = document.getElementsByClassName('sets__item-wrapper');
-    let openedChests = document.getElementsByClassName('chests__item-img-opened');
-    let closedChests = document.getElementsByClassName('chests__item-img-closed');
 
-    for (let i = 0; i < 7; i++) {
-        i === to ? descriptionItems[i].style.display = 'block' : descriptionItems[i].style.display = 'none';
-    }
-    
-    openedChests[from].style.display = 'none'
-    closedChests[from].style.display = 'block'
-    openedChests[to].style.display = 'block'
-    closedChests[to].style.display = 'none'
-    
-    
-    
-}
+
+
 
 
 
@@ -202,50 +210,14 @@ function move(to, from) {
 // end scroll sets chests
 
 
-// mobile scroll chests
 
-$(document).ready(function(){
-  
-  $('.sets-mobile__items').slick({
-    centerMode: true,
-    centerPadding: '0px',
-    slidesToShow: 3,
-    appendDots: $('.sets-mobile__heading'),
-    slidesToScroll: 1,
-    arrows: true,
-    focusOnSelect: false,
-    infinite: true,
-    responsive: [{
-        breakpoint: 821,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          dots: true,
-          centerPadding: '40px',
-          slidesToShow: 1,
-        }
-      },
-      {
-        breakpoint: 620,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          dots: true,
-          centerPadding: '40px',
-          slidesToShow: 1,
-        }
-      }
-    ]
-  });
-});
 
-// end mobile scroll chests
+
+
 
 
 
 // start Gallery
-
-//gallery open
 
 var gallery = document.querySelector('.gallery');
 var openBtnGallery = document.querySelector('.goals__kids-text-btn');
@@ -259,11 +231,4 @@ openBtnGallery.addEventListener("click", function () {
 
 });
 
-//gallery close
-
-$(document).ready(function(){
-
-$('.gallery-wrapper-content').flipLightBox({ lightbox_flip_speed: 500, lightbox_border_color: '#4075A5' });
-
-})
 // end Gallery 
