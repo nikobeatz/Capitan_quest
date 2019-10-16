@@ -35,9 +35,6 @@ mobOpen.addEventListener("click", function () {
 
 
 
-
-
-
 $(document).ready(function(){
 
   //start card carousel 
@@ -141,11 +138,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
-
 // map open
 
 var map = document.querySelector('.map');
@@ -174,8 +166,6 @@ openBtnMenu.addEventListener("click", function () {
 
 });
 
-
-
 // map close
 
 
@@ -194,29 +184,6 @@ $("html, body").on('click', '[href*="#"]', function(e){
 //end scroll
 
 
-// start scroll sets chests
-
-
-
-
-
-
-
-
-
-
-
-
-// end scroll sets chests
-
-
-
-
-
-
-
-
-
 // start Gallery
 
 var gallery = document.querySelector('.gallery');
@@ -232,3 +199,4 @@ openBtnGallery.addEventListener("click", function () {
 });
 
 // end Gallery 
+
